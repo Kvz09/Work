@@ -1,0 +1,524 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* global reset */
+html, body, body div, span, label, h1, h2, h3, h4, h5, h6, p, a, em, font, img, s, small, strike, strong, sub, sup, b, u, i, dl, dt, dd, ol, ul, li, button, form, fieldset, article, aside, footer, header, nav, section, input, textarea {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    list-style: none;
+}
+/* font adjusting hack */
+html * {
+    max-height: 1000000px;
+}
+/* common */
+html {
+    height: 100%;
+}
+body {
+    font: normal 16px/24px 'roboto', Arial, Helvetica, sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    width: 1120px;
+    margin: 0 auto;
+    padding: 16px;
+}
+h1 {
+    font: bold 32px/48px 'roboto';
+    color: red;
+    margin: 0 0 16px;
+    text-transform: uppercase;
+}
+.screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+/* icons */
+.icon::before {
+    font-family: 'icomoon';
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    color: white;
+    text-align: center;
+}
+.icon:hover::before {
+    color: yellow;
+}
+.logo::before {
+    content: '\e900';
+}
+.login::before {
+    content: '\e902';
+}
+.order::before {
+    content: '\e901';
+}
+.cat::before {
+    content: '\e903';
+}
+.to_left::before {
+    content: '\e905';
+}
+.to_right::before {
+    content: '\e904';
+}
+
+/* header */
+header {
+    flex: none;
+    background: #0000FF;
+    color: white;
+}
+.searschform {
+    background: white;
+    border-radius: 8px;
+    height: 24px;
+    padding: 6px;
+    flex: 1 1 auto;
+}
+.mainhead .container {
+    display: flex;
+    gap: 16px;
+}
+.mainhead a {
+    height: 24px;
+    width: 24px;
+    padding: 4px;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-align: center;
+    flex: none;
+    position: relative;
+    text-decoration: none;
+}
+header nav {
+    display: flex;
+    gap: 16px;
+}
+header nav a {
+    height: 24px;
+    border: 2px solid white;
+    border-radius: 8px;
+    flex: none;
+    text-decoration: none;
+    padding: 4px 8px;
+    color: white;
+}
+header a.active,
+header a:hover {
+    color: yellow;
+    border-color: yellow;
+    background: pink;
+}
+header .icon::before {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+}
+
+/* footer */
+footer {
+    flex: none;
+    background: #2CFF28; /*цвет подвала*/
+    color: white;
+}
+footer section {
+    padding: 16px 0;
+}
+.footermenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* main */
+main {
+    flex: 1 1 auto;
+}
+
+/* actions */
+.actionband {
+    /*background: #f93; фон банера*/
+   /* color: #fff; цвет шрифта на банере*/
+    text-transform: uppercase;
+}
+.actionband .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.discount,
+.retaimer,
+.sept,
+.num {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1;
+}
+.toptext,
+.subnum {
+    font-size: 12px;
+}
+.retaimer {
+    border-left: 1px solid #fff;
+    padding: 24px 0 0 24px;
+    margin-left: 24px;
+    position: relative;
+    text-align: center;
+}
+.toptext {
+    position: absolute;
+    top: 0;
+    left: 24px;
+    right: 0;
+}
+.sept,
+.num {
+    display: inline-block;
+    vertical-align: top;
+}
+.sept {
+    padding: 12px 0;
+}
+.num {
+    padding-bottom: 24px;
+    position: relative;
+    min-width: 50px;
+}
+.subnum {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* slider */
+.slider .container,
+.slider_desk,
+.slider_block {  /* слайдер ширина и высота*/
+    width: 1100px;
+    height: 450px;
+}
+.slider .container {
+    padding: 64px 64px;
+    position: relative;
+}
+.slider_desk { 
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+}
+.slider_block {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2; /*слайдер задержка*/
+}
+.slider_block.active {
+    z-index: 2; /*слайдер задержка*/
+}
+.slider button {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    border-radius: 8px;
+    text-align: center;
+    top: 269px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 32px;
+    line-height: 32px;
+}
+.slider .to_left {
+    left: 16px;
+}
+.slider .to_right {
+    right: 16px;
+}
+.slider button::before,
+.slider button::after {
+    color: gray;
+}
+.slider_points {
+    position: absolute;
+    z-index: 1;
+    width: 1200px; /*кружочки под слайдером*/
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    top: 530px;
+    left: 64px;
+}
+.slider_points span {
+	flex: none;
+    border-radius: 50%;
+	border: 1px solid gray;
+	height: 22px;
+	width: 22px;
+	cursor: pointer;
+}
+.slider_points span:hover {
+	border-color: yellow;
+}
+.slider_points span.active {
+    background: gray;
+}
+.slider_points span.active:hover {
+	background: yellow;
+}
+
+/* catalog */
+.catalog .container {
+    overflow: hidden;
+    padding: 0;
+}
+.catalog aside,
+.product aside {
+    float: left;
+    width: 288px;
+    padding: 16px;
+}
+.catalog article,
+.product article {
+    margin-left: 320px;
+    padding: 16px;
+}
+.product article {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 450px 1fr;
+}
+.product article h1,
+.product article .descriptions {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.price {
+    font: bold 32px/48px 'roboto';
+    color: red;
+}
+.item-desk {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.item {
+    width: 180px;
+    cursor: pointer;
+}
+.item:hover {
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.3);
+}
+.buy,
+.item button {
+    background: #ff2780;
+    color: white;
+    font-size: 32px;
+    line-height: 48px;
+    padding: 12px 28px;
+    display: block;
+    width: 100%;
+    border-radius: 16px;
+    margin: 16px 0 0;
+    border: 4px solid white;
+    cursor: pointer;
+}
+.buy:hover,
+.item button:hover {
+    color: yellow;
+}
+
+/* catmenu */
+.opener {
+    font-size: 32px;
+    line-height: 48px;
+    padding: 16px 16px 16px 80px;
+    background: #ff2780;
+    color: white;
+    cursor: pointer;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    position: relative;
+}
+.opener::before,
+.opener::after {
+    position: absolute;
+    left: 16px;
+    width: 48px;
+    height: 48px;
+    content: '';
+}
+.opener::before {
+    top: 16px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    height: 21px;
+    transform-origin: left top;
+    transition: border-bottom-width 1.4s step-end, transform 1.5s ease, width 1.5s ease;
+}
+.opener::after {
+    top: 41px;
+    border-bottom: 2px solid white;
+    height: 21px;
+    transform-origin: left bottom;
+    transition: transform 1.5s ease, width 1.5s ease;
+}
+.opener:hover,
+.opener:hover::before,
+.opener:hover::after,
+.opener:hover span::before {
+    color: yellow;
+    border-color: yellow;
+}
+.open .opener::before,
+.open .opener::after {
+    width: 66px;
+}
+.open .opener::before {
+    border-bottom-width: 0;
+    transform: rotate(45deg);
+    transition: border-bottom-width 1.4s step-start, transform 1.5s ease, width 1.5s ease;
+}
+.open .opener::after {
+    transform: rotate(-45deg);
+}
+.accordeon {
+    display: none;
+}
+.open .accordeon {
+    display: block;
+}
+.accordeon .sub {
+    padding-right: 24px;
+    position: relative;
+}
+.accordeon .sub::after {
+    position: absolute;
+    width: 24px;
+    right: 0;
+    top: 0;
+    text-align: center;
+    content: '\2b9a';
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+.accordeon .sub.open::after {
+    transform: rotate(90deg);
+    transform-origin: center;
+}
+.accordeon .sub > a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.accordeon .sub > a:hover {
+    text-decoration: underline;
+}
+.accordeon .sub > ul {
+    display: none;
+    transition: all .5s step-start;
+}
+.accordeon .sub.open > ul {
+    display: block;
+    transition: all .5s step-end;
+}
+
+/* gallery */
+.bigimage {
+    line-height: 0;
+    margin-bottom: 16px;
+}
+.bigimage img {
+    cursor: pointer;
+}
+.mini {
+    width: 410px;
+    padding: 0 20px;
+    position: relative;
+}
+.mini > div {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.mini > span {
+    position: absolute;
+    top: 0;
+    font-size: 48px;
+    line-height: 50px;
+    color: gray;
+    cursor: pointer;
+}
+.mini > span:hover {
+    color: red;
+}
+.mini > span.disabled {
+    color: lightgray;
+}
+.gal_left {
+    left: 0;
+}
+.gal_right {
+    right: 0;
+}
+.rail {
+    height: 50px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    gap: 10px;
+}
+.rail img {
+    cursor: pointer;
+}
+
+/* lightbox */
+.lightbox {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    padding: 16px;
+    border-radius: 16px;
+    background: white;
+    opacity: 0;
+}
+.lightbox button {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    color: white;
+    font-size: 64px;
+    line-height: 37px;
+    cursor: pointer;
+}
+.lightbox button:hover {
+    color: yellow;
+}
+
+
+
+
+
