@@ -68,6 +68,70 @@
                         </ul>
                     </nav>
                 </aside>
+                
+                <article>
+                    <h1>Карточка товара</h1>
+                    
+                    <div class="imagedesk">
+                        <div class="bigimage">
+                            <img src="images/0.jpg" alt="Толстовка">
+                        </div>
+                        <div class="mini">
+                            <div>
+                                <div class="rail">
+                                    <img src="images/mini_0.jpg" alt="Толстовка">
+									<img src="images/mini_01.jpg" alt="Толстовка">
+                                    <img src="images/mini_02.jpg" alt="Толстовка">
+									<img src="images/mini_10.jpg" alt="Толстовка">
+									<img src="images/mini_03.jpg" alt="Толстовка">
+									<img src="images/mini_04.jpg" alt="Толстовка">
+                                </div>
+                            </div>
+                            <span class="gal_left">&#8249;</span>
+                            <span class="gal_right disabled">&#8250;</span>
+                        </div>
+                    </div>
+                    
+                    <div class="pricedesk">
+                        <p class="big">Это Толстовка</p>
+                        <p class="price">5000 &#8381;</p>
+                        <button type="button" class="buy">Купить</button>
+                    </div>
+                    
+                    <div class="descriptions">Толстовка произведена компанией – производителем модных и экологичных премиум-вещей в Европе. Лучший стиль, модные цвета, необыкновенные ткани, — вот что делает одежду уникальной. Эта прогрессивная марка, является ведущим в мире производителем одежды из органического хлопка с использованием экологических ресурсов.</div>
+                </article>
+			<article>
+                    <h1>Карточка товара</h1>
+                    
+                    <div class="imagedesk">
+                        <div class="bigimage">
+                            <img src="images/10.jpg" alt="Пакеты">
+                        </div>
+                        <div class="mini">
+                            <div>
+                                <div class="rail">
+                                    <img src="images/mini_0.jpg" alt="Толстовка">
+									<img src="images/mini_01.jpg" alt="Толстовка">
+                                    <img src="images/mini_02.jpg" alt="Толстовка">
+									<img src="images/mini_10.jpg" alt="Толстовка">
+									<img src="images/mini_03.jpg" alt="Толстовка">
+									<img src="images/mini_04.jpg" alt="Толстовка">
+                                </div>
+                            </div>
+                            <span class="gal_left">&#8249;</span>
+                            <span class="gal_right disabled">&#8250;</span>
+                        </div>
+                    </div>
+                    
+                    <div class="Пакет">
+                        <p class="big">Это Толстовка</p>
+                        <p class="price">5000 &#8381;</p>
+                        <button type="button" class="buy">Купить</button>
+                    </div>
+                    
+                    <div class="descriptions">Толстовка произведена компанией – производителем модных и экологичных премиум-вещей в Европе. Лучший стиль, модные цвета, необыкновенные ткани, — вот что делает одежду уникальной. Эта прогрессивная марка, является ведущим в мире производителем одежды из органического хлопка с использованием экологических ресурсов.</div>
+                </article>
+			
             </div>
         </section>
     </main>
