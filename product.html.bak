@@ -52,7 +52,7 @@
                                 <a href="catalog.html">Одежда</a>
                                 <ul>
                                     <li><a href="product.html">Толстовка</a></li>
-                                    <li><a href="product.html">Покеты</a></li>
+                                    <li><a href="product.html"> Бумажные Пакет</a></li>
                                     <li><a href="product.html">Сумки</a></li>
                                     <li><a href="product.html">Вот</a></li>
                                     <li>
@@ -125,7 +125,7 @@
                     </div>
                     
                     <div class="pricedesk">
-                        <p class="big">Это Пакет</p>
+                        <p class="big">Это Бумажный Пакет</p>
                         <p class="price">100 &#8381;</p>
                         <button type="button" class="buy">Купить</button>
                     </div>
@@ -133,7 +133,37 @@
                     <div class="descriptions">Производство бумажных пакетов из вторсырья – это прекрасный пример важности сбора и переработки макулатуры, ведь при использовании вторичного сырья не только сберегаются природные леса, но и происходит экономия электроэнергии, воды и других ресурсов, что имеет огромное значение для экологического благополучия планеты.</div>
                 </article>
 			
-			
+			<article>
+			         <h1>Сумки </h1>
+                    
+                    <div class="imagedesk">
+                        <div class="bigimage">
+                            <img src="images/21.jpg" alt="Сумки">
+                        </div>
+                        <div class="mini">
+                            <div>
+                                <div class="rail">
+                                    <img src="images/mini_21.jpg" alt="Сумки">
+									<img src="images/mini_22.jpg" alt="Сумки">
+									<img src="images/mini_23.jpg" alt="Сумки">
+									<img src="images/mini_24.jpg" alt="Сумки">
+									<img src="images/mini_25.jpg" alt="Сумки">
+									<img src="images/mini_26.jpg" alt="Сумки">
+                                </div>
+                            </div>
+                            <span class="gal_left">&#8249;</span>
+                            <span class="gal_right disabled">&#8250;</span>
+                        </div>
+                    </div>
+                    
+                    <div class="pricedesk">
+                        <p class="big">Это Бумажный Пакет</p>
+                        <p class="price">100 &#8381;</p>
+                        <button type="button" class="buy">Купить</button>
+                    </div>
+                    
+                    <div class="descriptions">Производство бумажных пакетов из вторсырья – это прекрасный пример важности сбора и переработки макулатуры, ведь при использовании вторичного сырья не только сберегаются природные леса, но и происходит экономия электроэнергии, воды и других ресурсов, что имеет огромное значение для экологического благополучия планеты.</div>
+                </article>
 			
 			
             </div>
