@@ -335,7 +335,7 @@ main {
 }
 .buy,
 .item button {
-    background: #0DFF00;
+    background: #0DFF00;  /*цвет кнопки корзина*/
     color: white;
     font-size: 32px;
     line-height: 48px;
