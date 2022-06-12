@@ -143,7 +143,7 @@ header .icon::before {
 /* footer */
 footer {
     flex: none;
-    background: #2CFF28; /*цвет подвала*/
+    background: #00FA9A; /*цвет подвала*/
     color: white;
 }
 footer section {

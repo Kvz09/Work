@@ -52,13 +52,13 @@
                                 <a href="catalog.html">Одежда</a>
                                 <ul>
                                     <li><a href="product.html">Толстовка</a></li>
-                                    <li><a href="#">Пакеты</a></li>
+                                    <li><a href="product.html">Пакеты</a></li>
                                     <li><a href="#">Шампунь</a></li>
                                     <li><a href="#">Бумага</a></li>
                                     <li>
                                         <a href="#">Мыло</a>
                                         <ul>
-                                            <li><a href="#">Мыло1</a></li>
+                                            <li><a href="product.html">Мыло1</a></li>
                                             <li><a href="#">Мыло2</a></li>
                                             <li><a href="#">Мыло3</a></li>
                                         </ul>
@@ -75,15 +75,15 @@
                      <div class="item-desk">
                         <div class="item" data-href="product.html">
                         
-                            <h3>Товар</h3>
-                            <img src="images/0.png" alt="картинка товара">
+                            <h3>Толстовка</h3>
+                            <img src="images/0.png" alt="Талстовка">
                             <p>Сделайте простой первый, но очень важный шаг к здоровому будущему.</p>
                             <button type="button">Купить</button>
                         </div>
                         
                         <div class="item">
-                            <h3>Товар</h3>
-                            <img src="images/10.png" alt="картинка товара">
+                            <h3>Пакет</h3>
+                            <img src="images/10.png" alt="Пакет">
                             <p>Сделайте простой первый, но очень важный шаг к здоровому будущему.</p>
                             <button type="button">Купить</button>
                         </div>
@@ -200,7 +200,7 @@
         </section>
         <section>
             <div class="container">
-                <p class="copy">&copy; Имярек, сего года надцатого мартобря.</p>
+                <p class="copy">&copy; 2022 Все права защищены.</p>
             </div>
         </section>
     </footer>
