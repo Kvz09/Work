@@ -82,7 +82,7 @@
                         </div>
                         
 
-                        <div class="item" data-href="product.html"> /* еще одна страница*/
+                        <div class="item" data-href="product.html"> /*исправил*/
 						
                             <h3>Пакет</h3>
                             <img src="images/10.png" alt="Пакет">
