@@ -124,7 +124,7 @@
 			значит не беречь себя и своих близких. </div>
         </section>
     </main>
-    
+   
     <footer>
 	
         <section> 
@@ -140,27 +140,7 @@
                         <li>point</li>
                     </ul>
                    
-                    <ul>
-                        <li class="big">HEADER</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                    </ul>
-                <ul>
-                        <li class="big">HEADER</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                    </ul>
-					<ul>
-                        <li class="big">HEADER</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                    </ul>
+                    
 					
 
 					<div class="footer__col  footer__col--second">  <!--блоги -->
@@ -189,6 +169,7 @@
                                 <div class="blogs__date"> Обновлено Июнь 13, 2022</div>
                             </div>
                         </div>
+						
 						<div class="blogs__item">
                             <img src="images/blogs/4.jpg" alt="Фото3">
                             <div class="blogs__content">
@@ -199,24 +180,52 @@
                     </div> <!-- /.Блоги -->
 					
 				<div class="footer__col  footer__col--third">
-                    <div class="footer__title">Telegram</div>  <!--Телеграм -->
-
-                    <div class="Telegram">
-                        <a class="Telegram__item" href="#" target="_blank">
-                            <img src="images/Telegram/4.jpg" alt="">
-                        </a>
-                        <a class="Telegram__item" href="#" target="_blank">
-                            <img src="images/Telegram/3.jpg" alt="">
-                        </a>
-                        <a class="Telegram__item" href="#" target="_blank">
-                            <img src="images/Telegram/5.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
+                    <div class="footer__title">Телеграм</div>  <!--Телеграм -->
+					
+					<div class="Telegram__item">
+                            <img src="images/Telegram/4.jpg" alt="Фото3">
+                            <div class="Telegram__content">
+                                <a class="Telegram__title" href="#">Наш вклад в природу.</a>
+                                <div class="Telegram__date"> </div>
+                            </div>
+					</div>		
+					<div class="Telegram__item">
+                            <img src="images/Telegram/3.jpg" alt="Фото3">
+                            <div class="Telegram__content">
+                                <a class="Telegram__title" href="#">Наш вклад в природу.</a>
+                                <div class="Telegram__date"> </div>
+                            </div>
+					</div>		
+					<div class="Telegram__item">
+                            <img src="images/Telegram/5.jpg" alt="Фото3">
+                            <div class="Telegram__content">
+                                <a class="Telegram__title" href="#">Наш вклад в природу.</a>
+                                <div class="Telegram__date"> </div>
+                            </div>
+					</div>		
+						<div class="Telegram__item">
+                            <img src="images/Telegram/0.jpg" alt="Фото3">
+                            <div class="Telegram__content">
+                                <a class="Telegram__title" href="#">Наш вклад в природу.</a>
+                                <div class="Telegram__date"> </div>
+                            </div>
+						</div>
                 </div>
                 </nav>
             </div>
         </section>
+						<!-- Карта -->
+    <section class="section  section--map">
+        <div class="container">
+            <div class="map">
+                <h2 class="map__title">
+                    <div><i class="fas fa-map-marker-alt"></i></div>
+                    <a href="https://yandex.ru/maps/213/moscow/?ll=37.622103%2C55.751600&mode=poi&poi%5Bpoint%5D=37.618869%2C55.751428&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1023322799&utm_source=main_stripe_big&z=16.6" target="_blank">Наш офис продаж</a>
+                </h2>
+            </div>
+        </div>
+		
+    </section>
         <section>
             <div class="container">
                 <p class="copy">&copy; 2022 Все права защищены.</p>

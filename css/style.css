@@ -140,6 +140,9 @@ header .icon::before {
     bottom: 4px;
 }
 
+
+
+
 /* footer */
 footer {
     flex: none;
@@ -155,6 +158,7 @@ footer section {
     justify-content: space-between;
 	
 }
+
 
 /* Телеграм */
 .Telegram__item {
@@ -172,9 +176,26 @@ footer section {
     padding-left: 20px;
 }
 
+.Telegram__title {
+    display: block;
+    margin-bottom: 5px;
+
+    color: #4B0AFF;
+    font-size: 12px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 .Telegram__title:hover {
     text-decoration: underline;
 }
+
+.Telegram__date {  /*дата*/
+    font-size: 13px;
+    color: #FFFB14;
+    font-weight: 300;
+} 
  
 
 /* Блоги подвал */
@@ -214,6 +235,40 @@ footer section {
     font-weight: 300;
 } 
 /*/Блоги подвал*/
+
+/*Карта*/
+
+.map {
+    text-align: center;
+}
+
+.map__title {
+    font-size: 24px;
+    color: #4B0AFF; /*Цвет кнопки карта*/
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.map__title:after {
+    content: "";
+    display: block;
+    width: 240px; /*ширина черточки */
+    height: 3px; /*толщина линии*/
+    margin: 15px auto 0;
+
+    background-color: #FFFB14; /*цвет черточки*/
+} 
+
+
+.map__title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.map__title a:hover {
+    text-decoration: underline;
+}
+
 
 /* main */
 main {
