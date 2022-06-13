@@ -155,6 +155,25 @@ footer section {
     justify-content: space-between;
 	
 }
+
+/* Instagram */
+.Telegram {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Telegram__item {
+    width: 33%;
+    border-bottom: 1px solid #fff;
+}
+
+.Telegram__item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 /* Блоги подвал */
 .blogs__item {
     display: flex;
@@ -175,7 +194,7 @@ footer section {
     display: block;
     margin-bottom: 5px;
 
-    color: #2B14FF;
+    color: #4B0AFF;
     font-size: 12px;
     line-height: 1.5;
     text-transform: uppercase;
@@ -188,7 +207,7 @@ footer section {
 
 .blogs__date {
     font-size: 13px;
-    color: #999;
+    color: #FFFB14;
     font-style: italic;
     font-weight: 300;
 } 
