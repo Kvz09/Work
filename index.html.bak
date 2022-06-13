@@ -161,27 +161,7 @@
                         <li>point</li>
                         <li>point</li>
                     </ul>
-					<ul>
-                        <li class="big">HEADER</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                    </ul>
-					<ul>
-                        <li class="big">HEADER</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                    </ul>
-					<ul>
-                        <li class="big">HEADER</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                    </ul>
+					
 
 					<div class="footer__col  footer__col--second">  <!--блоги -->
 						<div class="footer__title">Блоги</div>
@@ -190,7 +170,7 @@
                             <img src="images/blogs/3.jpg" alt="Фото1">
                             <div class="blogs__content">
                                 <a class="blogs__title" href="#">10 способов помочь природе. </a>
-                                <div class="blogs__date">Июнь 13, 2022</div>
+                                <div class="blogs__date"> Обновлено Июнь 13, 2022</div>
                             </div>
                         </div>
 
@@ -198,7 +178,7 @@
                             <img src="images/blogs/1.jpg" alt="Фото2">
                             <div class="blogs__content">
                                 <a class="blogs__title" href="#">Как улучшить экологию.</a>
-                                <div class="blogs__date">Июнь 13, 2022</div>
+                                <div class="blogs__date">Обновлено Июнь 13, 2022</div>
                             </div>
                         </div>
 
@@ -206,7 +186,14 @@
                             <img src="images/blogs/2.jpg" alt="Фото3">
                             <div class="blogs__content">
                                 <a class="blogs__title" href="#">10 примеров заботы о планете.</a>
-                                <div class="blogs__date">Июнь 13, 2022</div>
+                                <div class="blogs__date"> Обновлено Июнь 13, 2022</div>
+                            </div>
+                        </div>
+						<div class="blogs__item">
+                            <img src="images/blogs/4.jpg" alt="Фото3">
+                            <div class="blogs__content">
+                                <a class="blogs__title" href="#">4 примера утилизации мусора.</a>
+                                <div class="blogs__date"> Обновлено Июнь 13, 2022</div>
                             </div>
                         </div>
                     </div> <!-- /.Блоги -->
