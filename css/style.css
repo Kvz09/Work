@@ -145,6 +145,7 @@ footer {
     flex: none;
     background: #006400; /*цвет подвала*/
     color: white;
+	
 }
 footer section {
     padding: 16px 0;
@@ -152,7 +153,46 @@ footer section {
 .footermenu {
     display: flex;
     justify-content: space-between;
+	
 }
+/* Блоги подвал */
+.blogs__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.blogs__img {  /*ширина и высота фотки*/
+    width: 50px;
+    height: 50px;
+}
+
+.blogs__content {
+    padding-left: 20px;
+}
+
+.blogs__title {
+    display: block;
+    margin-bottom: 5px;
+
+    color: #2B14FF;
+    font-size: 12px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.blogs__title:hover {
+    text-decoration: underline;
+}
+
+.blogs__date {
+    font-size: 13px;
+    color: #999;
+    font-style: italic;
+    font-weight: 300;
+} 
+/*/Блоги подвал*/
 
 /* main */
 main {
@@ -165,10 +205,11 @@ main {
    /* color: #fff; цвет шрифта на банере*/
     text-transform: uppercase;
 }
-.actionband .container {
+.actionband .container {  /*контейнер подвала*/
     display: flex;
     align-items: center;
     justify-content: center;
+	
 }
 .discount,
 .retaimer,

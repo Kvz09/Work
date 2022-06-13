@@ -18,7 +18,7 @@
 <body>
     <header>
         <section>
-            <p class="container">Поможим спости природу вместе. Покупайте товары само разлогаемые.</p>
+            <p class="container">Поможем спости природу вместе. Покупайте наши товары и мы перечислем 10% средств от Вашей покупки.В Фонд дикой природы.</p>
         </section>
         
         <section class="mainhead">
@@ -82,23 +82,25 @@
                         <img src="images/3.png" alt="pic 3">
                     </div>
 					
-					<div class="slider_block">
+					<div class="slider_block" >
                         <img src="images/4.png" alt="pic 4">
                     </div>
                     
-                    <div class="slider_block" style="background:black;color:white;">
-                        <p> Помогите природе - посадите дерево.</p> 
-						<p> Всегда убирайте мусор за собой: </p>
-						<p>не бросайте фантики, бумажки</p>
-						<p>и прочие отходы на улице.</p>
-						<p>Приучайте детей беречь </p>
-						<p>окружающую среду с самого</p>
-						<p>раннего детства. Выходя на природу </p>
-						<p>позаботьтесь о том, чтобы то место, </p>
-						<p> где вы приятно провели  время,</p>
-						<p>осталось в чистоте и порядке </p>
-						<p>	после вашего ухода. Ответственно </p>
-						<p>относитесь к использованным батарейкам..</p>
+                    <div class="slider_block" style="background:#00FFFF;color:white; text-align: center;">
+                       <p> 
+					   <p> 
+					   <h3> Помогите природе - посадите дерево.</h3>
+						<h3> Всегда убирайте мусор за собой: </h3>
+						<h3> не бросайте фантики, бумажки </h3>
+						<h3> и прочие отходы на улице.</h3>
+						<h3> Приучайте детей беречь </h3>
+						<h3> окружающую среду с самого </h3>
+						<h3> раннего детства. Выходя на природу </h3>
+						<h3> позаботьтесь о том, чтобы то место, </h3>
+						<h3> где вы приятно провели  время,</h3>
+						<h3> осталось в чистоте и порядке </h3>
+						<h3>	после вашего ухода. Ответственно </h3>
+						<h3> относитесь к использованным батарейкам..</h3>
                         
                     </div>
                 </div>
@@ -124,9 +126,12 @@
     </main>
     
     <footer>
-        <section>
+	
+        <section> 
             <div class="container">
+			
                 <nav class="footermenu">
+				
                     <ul>
                         <li class="big">HEADER</li>
                         <li>point</li>
@@ -155,6 +160,34 @@
                         <li>point</li>
                         <li>point</li>
                     </ul>
+					<div class="footer__col  footer__col--second">  <!--блоги -->
+                    <div class="footer__title">Blogs</div>
+
+                    <div class="blogs__item">
+                            <img src="images/blogs/3.jpg" alt="">
+                            <div class="blogs__content">
+                                <a class="blogs__title" href="#">10 способов помочь природе в повседневной жизни. </a>
+                                <div class="blogs__date">Июнь 13, 2022</div>
+                            </div>
+                        </div>
+
+                        <div class="blogs__item">
+                            <img src="images/blogs/1.jpg" alt="">
+                            <div class="blogs__content">
+                                <a class="blogs__title" href="#">40 способов улучшить экологию на планете</a>
+                                <div class="blogs__date">Июнь 13, 2022</div>
+                            </div>
+                        </div>
+
+                        <div class="blogs__item">
+                            <img src="images/blogs/2.jpg" alt="">
+                            <div class="blogs__content">
+                                <a class="blogs__title" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
+                                <div class="blogs__date">Июнь 13, 2022</div>
+                            </div>
+                        </div>
+                    </div><!-- /.Блоги -->
+                </div>
                 </nav>
             </div>
         </section>
