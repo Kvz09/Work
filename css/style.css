@@ -156,23 +156,26 @@ footer section {
 	
 }
 
-/* Instagram */
-.Telegram {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
+/* Телеграм */
 .Telegram__item {
-    width: 33%;
-    border-bottom: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
-.Telegram__item img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+.Telegram__img {  /*ширина и высота фотки*/
+    width: 50px;
+    height: 50px;
 }
+
+.Telegram__content {
+    padding-left: 20px;
+}
+
+.Telegram__title:hover {
+    text-decoration: underline;
+}
+ 
 
 /* Блоги подвал */
 .blogs__item {
@@ -205,10 +208,9 @@ footer section {
     text-decoration: underline;
 }
 
-.blogs__date {
+.blogs__date {  /*дата*/
     font-size: 13px;
     color: #FFFB14;
-    font-style: italic;
     font-weight: 300;
 } 
 /*/Блоги подвал*/
