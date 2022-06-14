@@ -51,15 +51,12 @@
                             <li class="sub">
                                 <a href="catalog.html">Одежда</a>
                                 <ul>
-                                   <li><a href="product.html">Толстовка</a></li>
+                                    <li><a href="product.html">Толстовка</a></li>
                                     <li><a href="product.html"> Бумажные Пакет</a></li>
                                     <li><a href="product.html">Полителеновая Сумка</a></li>
                                     <li><a href="product.html">Сумка шопер</a></li>
-									<li><a href="product.html">Красовки</a></li>
-									<li><a href="product.html"> Подарочный пакет</a></li>
-									 
                                     <li>
-                                        <a href="#">Мыло</a>
+                                        <a href="product5.html">Мыло</a>
                                         <ul>
                                             <li><a href="#">Мыло1</a></li>
                                             <li><a href="#">Мыло2</a></li>
@@ -71,23 +68,25 @@
                         </ul>
                     </nav>
                 </aside>
-                
-                <article>
-                    <h1>Толстовка</h1>
+
+			
+			<article>
+			         <h1>Мыло</h1>
                     
                     <div class="imagedesk">
                         <div class="bigimage">
-                            <img src="images/04.jpg" alt="Толстовка">
+                            <img src="images/14.jpg" alt="">
                         </div>
                         <div class="mini">
                             <div>
                                 <div class="rail">
-                                    <img src="images/mini_01.jpg" alt="Толстовка">
-									
-                                    <img src="images/mini_02.jpg" alt="Толстовка">
-									
-									<img src="images/mini_03.jpg" alt="Толстовка">
-									<img src="images/mini_04.jpg" alt="Толстовка">
+                                    <img src="images/mini_14.jpg" alt="Натуральное мыло">
+									<img src="images/mini_00.jpg" alt="Натуральное мыло">
+									<img src="images/mini_001.jpg" alt="Натуральное мыло">
+									<img src="images/mini_002.jpg" alt="Натуральное мыло">
+									<img src="images/mini_003.jpg" alt="Натуральное мыло">
+									<img src="images/mini_004.jpg" alt="Натуральное мыло">
+									<img src="images/mini_002.jpg" alt="Натуральное мыло">
                                 </div>
                             </div>
                             <span class="gal_left">&#8249;</span>
@@ -96,14 +95,13 @@
                     </div>
                     
                     <div class="pricedesk">
-                        <p class="big">Это Толстовка</p>
-                        <p class="price">5000 &#8381;</p>
+                        <p class="big">Это Натуральное мыло</p>
+                        <p class="price">210 &#8381;</p>
                         <button type="button" class="buy">Купить</button>
                     </div>
                     
-                    <div class="descriptions">Толстовка произведена компанией – производителем модных и экологичных премиум-вещей в Европе. Лучший стиль, модные цвета, необыкновенные ткани, — вот что делает одежду уникальной. Эта прогрессивная марка, является ведущим в мире производителем одежды из органического хлопка с использованием экологических ресурсов.</div>
+                    <div class="descriptions">Натуральное мыло с тропическим ароматом сочного манго – красивая забота природы в чистом виде. Мыло бережно очищает кожу, не повреждая естественный липидный баланс, эффективно питает и увлажняет, способствует сохранению молодости.  </div>
                 </article>
-			
 
             </div>
         </section>

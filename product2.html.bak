@@ -51,13 +51,10 @@
                             <li class="sub">
                                 <a href="catalog.html">Одежда</a>
                                 <ul>
-                                   <li><a href="product.html">Толстовка</a></li>
+                                    <li><a href="product.html">Толстовка</a></li>
                                     <li><a href="product.html"> Бумажные Пакет</a></li>
-                                    <li><a href="product.html">Полителеновая Сумка</a></li>
+                                    <li><a href="product2.html">Полителеновая Сумка</a></li>
                                     <li><a href="product.html">Сумка шопер</a></li>
-									<li><a href="product.html">Красовки</a></li>
-									<li><a href="product.html"> Подарочный пакет</a></li>
-									 
                                     <li>
                                         <a href="#">Мыло</a>
                                         <ul>
@@ -73,21 +70,21 @@
                 </aside>
                 
                 <article>
-                    <h1>Толстовка</h1>
+			         <h1>Полителеновая Сумка </h1>
                     
                     <div class="imagedesk">
                         <div class="bigimage">
-                            <img src="images/04.jpg" alt="Толстовка">
+                            <img src="images/21.jpg" alt="Полителеновая Сумка">
                         </div>
                         <div class="mini">
                             <div>
                                 <div class="rail">
-                                    <img src="images/mini_01.jpg" alt="Толстовка">
-									
-                                    <img src="images/mini_02.jpg" alt="Толстовка">
-									
-									<img src="images/mini_03.jpg" alt="Толстовка">
-									<img src="images/mini_04.jpg" alt="Толстовка">
+                                    <img src="images/mini_21.jpg" alt="Полителеновая Сумка">
+									<img src="images/mini_22.jpg" alt="Полителеновая Сумка">
+									<img src="images/mini_23.jpg" alt="Полителеновая Сумка">
+									<img src="images/mini_24.jpg" alt="Полителеновая Сумка">
+									<img src="images/mini_25.jpg" alt="Полителеновая Сумка">
+									<img src="images/mini_26.jpg" alt="Полителеновая Сумка">
                                 </div>
                             </div>
                             <span class="gal_left">&#8249;</span>
@@ -96,15 +93,13 @@
                     </div>
                     
                     <div class="pricedesk">
-                        <p class="big">Это Толстовка</p>
-                        <p class="price">5000 &#8381;</p>
+                        <p class="big">Это Полителеновые Сумки</p>
+                        <p class="price">190 &#8381;</p>
                         <button type="button" class="buy">Купить</button>
                     </div>
                     
-                    <div class="descriptions">Толстовка произведена компанией – производителем модных и экологичных премиум-вещей в Европе. Лучший стиль, модные цвета, необыкновенные ткани, — вот что делает одежду уникальной. Эта прогрессивная марка, является ведущим в мире производителем одежды из органического хлопка с использованием экологических ресурсов.</div>
+                    <div class="descriptions">Простой и доступный шаг: купить сумку из переработанного пластика, на которой приведена информация о количестве бутылок, не попавших в окружающую среду, а отправленных приносить пользу. При этом сумка — одна из самых прочных и выдерживает нагрузку до 15 кг. Многоразовые сумки в сложенном виде легко помещаются в карман.</div>
                 </article>
-			
-
             </div>
         </section>
     </main>

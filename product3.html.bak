@@ -51,13 +51,12 @@
                             <li class="sub">
                                 <a href="catalog.html">Одежда</a>
                                 <ul>
-                                   <li><a href="product.html">Толстовка</a></li>
+                                    <li><a href="product.html">Толстовка</a></li>
                                     <li><a href="product.html"> Бумажные Пакет</a></li>
                                     <li><a href="product.html">Полителеновая Сумка</a></li>
-                                    <li><a href="product.html">Сумка шопер</a></li>
-									<li><a href="product.html">Красовки</a></li>
-									<li><a href="product.html"> Подарочный пакет</a></li>
-									 
+                                    <li><a href="product.html3">Сумка шопер</a></li>
+									<li><a href="product.html">Подарочный пакет</a></li>
+									
                                     <li>
                                         <a href="#">Мыло</a>
                                         <ul>
@@ -71,23 +70,24 @@
                         </ul>
                     </nav>
                 </aside>
-                
-                <article>
-                    <h1>Толстовка</h1>
+			
+			<article>
+			         <h1>Сумка шопер</h1>
                     
                     <div class="imagedesk">
                         <div class="bigimage">
-                            <img src="images/04.jpg" alt="Толстовка">
+                            <img src="images/12.jpg" alt="">
                         </div>
                         <div class="mini">
                             <div>
                                 <div class="rail">
-                                    <img src="images/mini_01.jpg" alt="Толстовка">
-									
-                                    <img src="images/mini_02.jpg" alt="Толстовка">
-									
-									<img src="images/mini_03.jpg" alt="Толстовка">
-									<img src="images/mini_04.jpg" alt="Толстовка">
+                                    <img src="images/mini_12.jpg" alt="Сумка шопер">
+									<img src="images/mini_30.jpg" alt="Сумка шопер">
+									<img src="images/mini_31.jpg" alt="Сумка шопер">
+									<img src="images/mini_32.jpg" alt="Сумка шопер">
+									<img src="images/mini_33.jpg" alt="Сумка шопер">
+									<img src="images/mini_34.jpg" alt="Сумка шопер">
+									<img src="images/mini_35.jpg" alt="Сумка шопер">
                                 </div>
                             </div>
                             <span class="gal_left">&#8249;</span>
@@ -96,12 +96,12 @@
                     </div>
                     
                     <div class="pricedesk">
-                        <p class="big">Это Толстовка</p>
-                        <p class="price">5000 &#8381;</p>
+                        <p class="big">Это Сумка шопер</p>
+                        <p class="price">210 &#8381;</p>
                         <button type="button" class="buy">Купить</button>
                     </div>
                     
-                    <div class="descriptions">Толстовка произведена компанией – производителем модных и экологичных премиум-вещей в Европе. Лучший стиль, модные цвета, необыкновенные ткани, — вот что делает одежду уникальной. Эта прогрессивная марка, является ведущим в мире производителем одежды из органического хлопка с использованием экологических ресурсов.</div>
+                    <div class="descriptions">Сумка-шоппер это простая сумка с одним отделением. Она пригодится, чтобы сходить за покупками или в спортзал, в ней можно взять с собой обед, спортивную форму или ... Компактный и стильный шоппер из тайвека это настоящая инвестиция. В будующие Планеты! </div>
                 </article>
 			
 

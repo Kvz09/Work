@@ -71,19 +71,19 @@
                 <div class="slider_desk">
                     <div class="slider_block active">
 					
-                        <img src="images/6.png" alt="pic 1">
+                        <img src="images/Банер/6.png" alt="pic 1">
                     </div>
                     
                     <div class="slider_block">
-                        <img src="images/2.png" alt="pic 2">
+                        <img src="images/Банер/2.png" alt="pic 2">
                     </div>
                     
                     <div class="slider_block">
-                        <img src="images/3.png" alt="pic 3">
+                        <img src="images/Банер/3.png" alt="pic 3">
                     </div>
 					
 					<div class="slider_block" >
-                        <img src="images/4.png" alt="pic 4">
+                        <img src="images/Банер/4.png" alt="pic 4">
                     </div>
                     
                     <div class="slider_block" style="background:#00FFFF;color:white; text-align: center;">
@@ -230,7 +230,7 @@
         </section>
 		       <!--подписатся-->
 			 <form class="subscribe" action="/" method="post">  
-                <input class="subscribe__input" type="email" name="name" placeholder="<!--Your Email...>">
+                <input class="subscribe__input" type="email" name="name" placeholder="<Ваш электронный адрес>">
                 <button class="subscribe__btn" type="submit">Подписатся</button>
              </form>
 						<!-- Карта -->
