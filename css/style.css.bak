@@ -248,7 +248,7 @@ footer section {
     font-weight: 700;
     text-transform: uppercase;
 }
-/*
+
 .map__title:after {
     content: "";
     display: block;
@@ -258,13 +258,7 @@ footer section {
 
     background-color: #FFFB14; /*цвет черточки*/
 } 
-*/
-.map__title {
-    font: normal 16px/24px 'roboto', Arial, Helvetica, sans-serif;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
+
 
 .map__title a {
     color: inherit;
@@ -273,6 +267,63 @@ footer section {
 
 .map__title a:hover {
     text-decoration: underline;
+}
+
+/* Subscribe Подписатся*/
+.subscribe {
+    width: 100%;
+    max-width: 480px; /*ширина почты*/
+    display: flex;
+	margin-left: 100px;
+
+}
+
+.subscribe__input {
+    width: 100%;
+    height: 40px;
+    padding: 12px;
+
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    border-right: 0;
+
+   
+}
+
+.subscribe__input::placeholder {
+    color: #ccc;
+}
+
+.subscribe__input:focus {
+    outline: 0;
+    border-color: #95e1d3;
+}
+
+.subscribe__btn {
+    width: 50%;
+    height: 66px; /*ширина кнопки подписатся*/
+    padding: 12px 30px;
+
+    background-color: #4B0AFF; /*цвет кнопки подписатся*/
+    border: 0;
+    cursor: pointer;
+
+    
+    font-size: 14px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+
+    transition: background .2s linear;
+}
+
+.subscribe__btn:hover {
+    background-color: #74c7b8;
+}
+
+.subscribe__btn:focus {
+    outline: 0;
 }
 
 
