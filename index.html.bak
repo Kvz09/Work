@@ -5,7 +5,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title></title>
+    <title>Главная страница</title>
     
     <link rel="stylesheet" href="css/style.css">
     
@@ -66,6 +66,85 @@
             </div>
         </section>
         
+		
+		 <!-- Works -->
+    <section class="section" id="works">
+        <div class="container">
+            <div class="section__header">
+              <!--  <h3 class="section__suptitle">What we do</h3>
+                <h2 class="section__title">some of our work</h2>
+                <div class="section__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
+                </div>
+            </div>
+        </div>
+
+        <div class="works">
+            <div class="works__col">
+                <div class="works__item">
+                    <img class="works__image" src="images/works/5.jpg" alt="">
+                    <div class="works__info">
+                        <div class="works__title">creatively designed</div>
+                        <div class="works__text">Lorem ipsum dolor sit</div>
+                    </div>
+                </div>
+                <div class="works__item">
+                    <img class="works__image" src="images/works/2.jpg" alt="">
+                    <div class="works__info">
+                        <div class="works__title">creatively designed</div>
+                        <div class="works__text">Lorem ipsum dolor sit</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="works__col">
+                <div class="works__item">
+                    <img class="works__image" src="images/works/1.jpg" alt="">
+                    <div class="works__info">
+                        <div class="works__title">creatively designed</div>
+                        <div class="works__text">Lorem ipsum dolor sit</div>
+                    </div>
+                </div>
+                <div class="works__item">
+                    <img class="works__image" src="images/works/7.jpg" alt="">
+                    <div class="works__info">
+                        <div class="works__title">creatively designed</div>
+                        <div class="works__text">Lorem ipsum dolor sit</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="works__col">
+                <div class="works__item">
+                    <img class="works__image" src="images/works/3.jpg" alt="">
+                    <div class="works__info">
+                        <div class="works__title">creatively designed</div>
+                        <div class="works__text">Lorem ipsum dolor sit</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="works__col">
+                <div class="works__item">
+                    <img class="works__image" src="images/works/6.jpg" alt="">
+                    <div class="works__info">
+                        <div class="works__title">creatively designed</div>
+                        <div class="works__text">Lorem ipsum dolor sit</div>
+                    </div>
+                </div>
+                <div class="works__item">
+                    <img class="works__image" src="images/works/4.jpg" alt="">
+                    <div class="works__info">
+                        <div class="works__title">creatively designed</div>
+                        <div class="works__text">Lorem ipsum dolor sit</div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.works -->
+    </section>
+		
+		
+		
         <section class="slider">
             <div class="container">
                 <div class="slider_desk">
@@ -118,6 +197,8 @@
             </div>
         </section>
         
+		
+
         <section>
             <div class="container"> Природа – это прекрасный мир, который окружает человека. Это горы, поля, леса,
 			реки, 	озера. Природа дает людям кров, пищу и одежду, это воздух, которым они дышат. Не беречь природу, 

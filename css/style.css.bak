@@ -140,6 +140,73 @@ header .icon::before {
     bottom: 4px;
 }
 
+/* Works */
+.works {
+    display: flex;
+}
+
+.works__col {
+    flex: 1 1 0;
+}
+
+.works__item {
+    position: relative;
+
+    background: linear-gradient(to bottom, #f38181, #fce38a);
+}
+
+.works__item:hover .works__image {
+    opacity: .1;
+}
+
+.works__item:hover .works__info {
+    opacity: 1;
+}
+
+.works__image {  /*работает с изображением*/
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+    transition: opacity .2s linear;
+}
+/*
+.container {
+    width: 1120px;
+    margin: 0 auto;
+    padding: 16px;
+}
+*/
+
+.works__info {
+    width: 100%;
+    padding: 0 15px;
+
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+
+    transform: translate3d(0, -50%, 0);
+    transition: opacity .2s linear;
+}
+
+.works__title {
+    margin-bottom: 5px;
+
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.works__text {
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+}
 
 
 
@@ -274,7 +341,7 @@ footer section {
     width: 100%;
     max-width: 480px; /*ширина почты*/
     display: flex;
-	margin-left: 100px;
+	margin-left: 100px; /*отступ от левого края*/
 
 }
 
@@ -693,6 +760,62 @@ main {
 }
 
 
-
+/* order */ /*карзина*/
+.table div {
+    font-size: 24px;
+    line-height: 48px;
+}
+.tr {
+    display: grid;
+    grid-template-columns: 5% 30% 20% 20% 20% 5%;
+}
+.tr.top {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.tr.bottom {
+    font-weight: bold;
+    border-top: 1px solid black;
+}
+.table .price {
+    font-weight: normal;
+    color: black;
+}
+.table .top .price {
+    font-weight: bold;
+}
+.table .price::after,
+.table .summa::after,
+.table .itog::after {
+	content: '\0020\20BD';
+}
+.bottom .text {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.bottom .itog {
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+.table button {
+    font-size: 24px;
+    line-height: 48px;
+    width: 48px;
+    cursor: pointer;
+    flex: none;
+}
+.table button:active {
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 16px;
+}
+.quantity {
+    display: flex;
+    padding-right: 48px;
+    gap: 16px;
+}
+.quantity span {
+    flex: auto;
+    text-align: center;
+}
 
 
