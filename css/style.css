@@ -23,6 +23,7 @@ html, body, body div, span, label, h1, h2, h3, h4, h5, h6, p, a, em, font, img, 
 /* font adjusting hack */
 html * {
     max-height: 1000000px;
+	
 }
 /* common */
 html {
@@ -38,12 +39,14 @@ body {
     width: 1120px;
     margin: 0 auto;
     padding: 16px;
+	
 }
 h1 {
     font: bold 32px/48px 'roboto';
     color: red;
     margin: 0 0 16px;
     text-transform: uppercase;
+	
 }
 .screen {
     position: fixed;
@@ -140,14 +143,12 @@ header .icon::before {
     bottom: 4px;
 }
 
+
 /* Works */
 .works {
     display: flex;
 }
 
-.works__col {
-    flex: 1 1 0;
-}
 
 .works__item {
     position: relative;
@@ -163,45 +164,11 @@ header .icon::before {
     opacity: 1;
 }
 
-.works__image {  /*работает с изображением*/
+.works__image {
     display: block;
     max-width: 100%;
     height: auto;
-
-    transition: opacity .2s linear;
 }
-
-.works__info {
-    width: 100px;
-    padding: 16px;
-
-
-
-    text-align: center;
-    color: #fff;
-    opacity: 0;
-
-    position: absolute;
-    top: 50%;
-    left: 0;
-    z-index: 1;
-
-    transform: translate3d(0, -50%, 0);
-    transition: opacity .2s linear;
-}
-
-.works__title {
-    margin-bottom: 50px;
-
-    font-size: 14px;
-    text-transform: uppercase;
-}
-
-.works__text {
-    font-size: 15px;
-    font-weight: 300;
-}
-
 
 
 /* footer */
@@ -301,6 +268,7 @@ footer section {
 
 .map {
     text-align: center;
+	
 }
 
 .map__title {
@@ -331,18 +299,19 @@ footer section {
 }
 
 /* Subscribe Подписатся*/
+
 .subscribe {
-    width: 100%;
+    width: 480px;
     max-width: 480px; /*ширина почты*/
     display: flex;
-	margin-left: 100px; /*отступ от левого края*/
+	 /*отступ от левого края*/
 
 }
 
 .subscribe__input {
     width: 100%;
     height: 40px;
-    padding: 12px;
+    padding: 19px;
 
     background: #fff;
     border: 1px solid #e7e7e7;
@@ -363,7 +332,7 @@ footer section {
 .subscribe__btn {
     width: 50%;
     height: 66px; /*ширина кнопки подписатся*/
-    padding: 12px 30px;
+    padding: 15px 36px;
 
     background-color: #4B0AFF; /*цвет кнопки подписатся*/
     border: 0;
@@ -411,7 +380,7 @@ main {
 .num {
     font-weight: bold;
     font-size: 40px;
-    line-height: 1;
+    line-height: 1; /*высота линии*/
 }
 .toptext,
 .subnum {
@@ -450,18 +419,19 @@ main {
     right: 0;
 }
 
+
 /* slider */
 .slider .container,
 .slider_desk,
 .slider_block {  /* слайдер ширина и высота*/
-    width: 1100px;
-    height: 450px;
+    width: 1000px;
+    height: 530px;
 }
 .slider .container {
-    padding: 64px 64px;
+    padding: 16px 64px;
     position: relative;
 }
-.slider_desk { 
+.slider_desk {
     overflow: hidden;
     position: relative;
     background: #fff;
@@ -470,10 +440,10 @@ main {
     position: absolute;
     left: 0;
     top: 0;
-    z-index: -2; /*слайдер задержка*/
+    z-index: -1; /*слайдер задержка*/
 }
 .slider_block.active {
-    z-index: 2; /*слайдер задержка*/
+    z-index: 1; /*слайдер задержка*/
 }
 .slider button {
     position: absolute;
@@ -481,7 +451,7 @@ main {
     width: 32px;
     border-radius: 8px;
     text-align: center;
-    top: 269px;
+    top: 190px; /*стрелочки на банере вверх и низ*/
     z-index: 1;
     cursor: pointer;
     font-size: 32px;
@@ -500,18 +470,18 @@ main {
 .slider_points {
     position: absolute;
     z-index: 1;
-    width: 1200px; /*кружочки под слайдером*/
+    width: 417px; /*кружочки под слайдером*/
     height: 24px;
     display: flex;
     justify-content: center;
     gap: 16px;
-    top: 530px;
-    left: 64px;
+    top: 530px; /*ширина rhe;rjd*/
+    left: 364px;
 }
 .slider_points span {
 	flex: none;
     border-radius: 50%;
-	border: 1px solid gray;
+	border: 1px solid #0DFF00;;
 	height: 22px;
 	width: 22px;
 	cursor: pointer;
@@ -520,11 +490,13 @@ main {
 	border-color: yellow;
 }
 .slider_points span.active {
-    background: gray;
+    background: #0DFF00;
 }
 .slider_points span.active:hover {
 	background: yellow;
 }
+
+
 
 /* catalog */
 .catalog .container {
@@ -730,7 +702,7 @@ main {
     cursor: pointer;
 }
 
-/* lightbox */
+/* lightbox Всплывающие окно колендарь Корзина */
 .lightbox {
     position: fixed;
     left: 50%;
@@ -753,9 +725,84 @@ main {
     color: yellow;
 }
 
+.lightbox,
+.calendarbox,
+.alertbox {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    padding: 16px;
+    border-radius: 16px;
+    background: white;
+    opacity: 0;
+}
+.alertbox {
+    width: 360px;
+    height: 60px;
+    margin: -46px auto auto -196px;
+}
+.calendarbox {
+    width: 398px;
+    margin: -215px auto auto -215px;
+}
+.lightbox button,
+.calendarbox button,
+.alertbox button {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    color: white;
+    font-size: 64px;
+    line-height: 37px;
+    cursor: pointer;
+}
+.lightbox button:hover,
+.calendarbox button:hover,
+.alertbox button:hover {
+    color: yellow;
+}
+.calendarbox span {
+    flex: none;
+    height: 48px;
+    width: 48px;
+    display: block;
+    line-height: 48px;
+    text-align: center;
+    border: 1px solid gray;
+    color: gray;
+}
+.calendarbox strong {
+    flex: auto;
+    line-height: 48px;
+    text-align: center;
+    color: gray;
+}
+.calendarbox .dp_header {
+    display: flex;
+    height: 48px;
+    width: 398px;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+.calendarbox .dp_grid {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(7, 50px);
+}
+.calendarbox .holiday {
+    color: red;
+    border-color: red;
+}
+.calendarbox .headday {
+    border-color: transparent;
+    font-weight: bold;
+}
+.calendarbox .empty {
+    border-color: transparent;
+}
 
 /* order */ /*карзина*/
-.table div {
+table div {
     font-size: 24px;
     line-height: 48px;
 }
@@ -810,6 +857,47 @@ main {
 .quantity span {
     flex: auto;
     text-align: center;
+}
+.currency {
+    margin-top: 16px;
+}
+fieldset {
+    margin: 16px 0;
+    border: 2px solid red;
+    padding: 16px;
+}
+legend {
+    font-weight: bold;
+    color: red;
+}
+input {
+    display: block;
+    margin-top: 16px;
+    border: 1px solid gray;
+    padding: 16px;
+    color: gray;
+    height: 30px;
+    width: 250px;
+}
+textarea {
+    display: block;
+    margin-top: 16px;
+    border: 1px solid gray;
+    padding: 16px;
+    color: gray;
+    height: 60px;
+    width: 250px;
+}
+legend + input {
+    margin: 0;
+}
+.sendform {
+    display: block;
+    width: 200px;
+    padding: 16px;
+    background: red;
+    color: white;
+    cursor: pointer;
 }
 
 
