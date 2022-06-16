@@ -48,6 +48,37 @@ h1 {
     text-transform: uppercase;
 	
 }
+.flame {  /*пылающие пламя*/
+		font-size: 55px;
+		padding: 40px 0 30px 40px;
+		width: 1200px;
+		text-align: center; /*выравнивания текста по центру*/
+		font-weight: bold;
+		/*background: scroll 0% 0% rgb(0, 0, 0);*/
+		color: rgb(50, 50, 50);
+		text-shadow: -1px 2px rgb(255, 255, 0),
+		2px -3px 3px rgb(255, 204, 0),
+		2px -5px 6px rgb(255, 153, 0),
+		-3px -7px 8px rgb(255, 102, 0),
+		1px -15px 30px rgb(255, 51, 0),
+		3px -30px 55px rgb(255, 0, 0);
+ }
+
+p1{
+	text-align: center;
+	font-size:30px;
+	letter-spacing: 4px;
+	color:#5FFF28;
+	text-shadow: -1px -1px #EE8A08,
+	-2px -2px #EE8A08,
+	-1px 1px #EE8A08,
+	-2px 2px #EE8A08,
+	1px 1px #EE8A08,
+	2px 2px #EE8A08,
+	1px -1px #EE8A08,
+	2px -2px #EE8A08,
+	}
+
 .screen {
     position: fixed;
     top: 0;
@@ -56,6 +87,13 @@ h1 {
     bottom: 0;
     background: rgba(0,0,0,0.6);
 }
+
+
+
+
+
+
+
 
 /* icons */
 .icon::before {
@@ -172,6 +210,8 @@ header .icon::before {
 
 
 /* footer */
+
+
 footer {
     flex: none;
     background: #006400; /*цвет подвала*/
@@ -179,7 +219,7 @@ footer {
 	
 }
 footer section {
-    padding: 16px 0;
+    padding: 16px 0;   
 }
 .footermenu {
     display: flex;

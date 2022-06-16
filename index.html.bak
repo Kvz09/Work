@@ -18,7 +18,9 @@
 <body>
     <header>
         <section>
-            <p class="container"> <h1>  Интернет магазин "Забота о Планете"<h1></p>
+		<div class="flame" id="fire">Интернет магазин "Забота о природе"</div>
+		
+        
         </section>
         
         <section class="mainhead">
@@ -42,6 +44,40 @@
     </header>
     
     <main>
+	
+	<div class="section__header">
+             <section class="section" id="works"> <!--"works"1-->
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">
+				<p1>Мы продаем товар из переработоного вторсырья.</p1> 
+				<br>
+				<br>
+				<p>Интересный  факт.</p>
+				<br>
+				
+				<p> Пять товаров из топ Семь продаж, с начала текущего года.</p>
+				<p> Сделаны  из эконила, это рыболовные сети, ковровые покрытия, и промышленный пластик.</p> 
+				<p> Скейтборд, Рюкзак, Красовки Adidas, Женская сумка, и Морской стул № 111.</p>
+				<br>
+				</h2>
+                <div class="section__text">
+		           <h2 class="section__title"> 
+				   <br>
+				  <p1> Не удивляйтесь  а еще два товара, сделаны из СМОГА.</p1> 
+				  <br>
+				  <br>
+				  <p> Кольцо из смога и Подвеска на шею.</p> 
+				  <br>
+				  <p>  Голландский дизайнер Даан Рузегэарде создал бижутерию из смога.</p> 
+				  <p> Для этого он разработал специальную вакуумную систему, которая высасывает городскую сажу прямо из воздуха. </p> 
+				  <p> Внимание в связи с этим событием. На нижеприведенный товар. Мы дополнительно даем скидку. Торопись количество товара ограничено.</p>
+				  <p> Просто нажми на ниже приведенные товары.</p>
+                </div>
+            </div>
+        </div> <!--"works"1-->
+	
+	</div>
         <section class="actionband">
             <div class="container">
                 <div class="discount">СКИДКА 30%!</div>
@@ -65,37 +101,7 @@
                 </div>
             </div>
         </section>
-        
-		
-		 <!-- Works -->
-    <section class="section" id="works">
-        <div class="container">
-            <div class="section__header">
-             
-                <h2 class="section__title">
-				<p>Мы продаем товар из переработоного втор сырья.</p> 
-				<br>
-				<p>Интересный  факт.</p> 
-				<p> Пять товаров из топ Семь, продаж нашего магазина.</p>
-				<p> Скейтборд, Рюкзак, Красовки Adidas, Женская сумка, и Морской стул № 111.</p>
-				<br>
-				<p>Сделаны  из эконила,  это рыболовные сети, ковровые покрытия, и промышленный пластик.</p> </h2>
-				
-                <div class="section__text">
-		           <h2 class="section__title"> 
-				   <br>
-				  <p> И  не удивляйтесь и два товара сделаны из СМОГА.</p> 
-				  <p> Кольцо из смога, Украшения</p> 
-				  <br>
-				  <p>  Голландский дизайнер Даан Рузегэарде создал бижутерию из смога.</p> 
-				  <p> Для этого он разработал специальную вакуумную систему, </p> 
-				  <p> которая высасывает городскую сажу прямо из воздуха.</p> 
-				  
-				 
-                </div>
-            </div>
-        </div>
-
+       <!--"works"2-->
         <div class="works">
             <div class="works__col">
                 <div class="works__item">
@@ -129,7 +135,7 @@
                     <img class="works__image" src="images/works/6.jpg" alt="">
                 </div>
             </div>
-        </div><!-- /.works -->
+        </div><!-- /.works2 -->
     </section>
 		
 		
@@ -192,124 +198,143 @@
             <div class="container"> Природа – это прекрасный мир, который окружает человека. Это горы, поля, леса,
 			реки, 	озера. Природа дает людям кров, пищу и одежду, это воздух, которым они дышат. Не беречь природу, 
 			значит не беречь себя и своих близких. </div>
-        </section>
+        </section>	
     </main>
    
-    <footer>
+      <footer>
 	
-        <section> 
-            <div class="container">
+	<style>
+			.meny{
+			background: #006400;
+			padding: 5px;
+			border-radius: 0px;
+			box-shadow: 0px 0px 0px 2px #006400;
+			width: auto;  /*100% не проходит*/
+			height: 500px;
+			}
+			.html, .css, .php, .js{
+			float: left;
+			margin: 3px 3px 3px 3px;
+			width: 260px;
+			}
+			ul {
+			width: 260px; 
+			list-style: none;
+			padding: 0;
+			margin: 0 0 0 0;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 22px;
+			text-align: center;
+			}
+			li ul {
+			position: absolute;
+			display: none;
+			margin-left: 0px;
+			margin-top: 0px;
+			}
+			li a {
+			display: block;
+			padding: 20px;
+			text-decoration: none;
+			color: #006400;
+			border-radius: 20px;
+			box-shadow: 0px 0px 0px 2px #0ea8f4;     
+			background: #7df9ff;    
+			background: -moz-radial-gradient(center, ellipse cover, #7df9ff 50%, #FBFFFF);     
+			background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(50%,#7df9ff), color-stop(100%,#FBFFFF));
+			background: -webkit-radial-gradient(center, ellipse cover, #7df9ff 50%, #FBFFFF);
+			background: -o-radial-gradient(center, ellipse cover, #7df9ff 50%, #FBFFFF);
+			background: -ms-radial-gradient(center, ellipse cover, #7df9ff 50%, #FBFFFF);
+			}
+			li a:hover {         
+			color: #ffe;     
+			box-shadow: 0px 0px 5px 2px #0ea8f4; 
+			background: #009494;     
+			background: -moz-radial-gradient(center, ellipse cover, #009494, #FBFFFF);        
+			background: -webkit-gradient(radial, center center, 0px, center center, 100%,    color-stop(0%,#009494), color-stop(100%,#FBFFFF));
+			background: -webkit-radial-gradient(center, ellipse cover, #009494, #FBFFFF);
+			background: -o-radial-gradient(center, ellipse cover, #009494, #FBFFFF);
+			background: -ms-radial-gradient(center, ellipse cover, #009494, #FBFFFF);
+			}
+			li a:active{        
+			color: #ef7a04;
+			box-shadow: 0px 0px 15px 5px #0ea8f4;
+			}
+			li:hover ul {         
+			display: block;     
+			}
+			</style>
+
+ <body>
+	<ul class="meny">
+		<li class="html"><a href="http://address post">О Компании</a>
+			<ul>
+				<li><a href="http://address post">О нас</a></li>
+				<li><a href="http://address post">Реквизиты</a></li>
+				<li><a href="http://address post">Пресс-центр</a></li>
+				<li><a href="contacts.html">Контакты</a></li>
+				<li><a href="http://address post">Правила продажи</a></li>
+				<li><a href="http://address post">Политика конфиденциальности</a></li>
+			</ul>
+		</li>
 			
-                <nav class="footermenu">
-				
-                    <ul>
-                        <li class="big">Покупателем.</li>
-                        <li>Каталог.</li>
-                        <li>Поддержка.</li>
-                        <li>Политика конфиденциальности.</li>
-                        <li>Специальные возможности.</li>
-                    </ul>
-                    <ul>
-                        <li class="big">Партнера.</li>
-                        <li>Стать продавцом.</li>
-                        <li>Условия использования.</li>
-                        <li>Купить оптом.</li>
-                        <li>Купить в розницу.</li>
-                    </ul>
-                     <ul>
-                        <li class="big">Компания.</li>
-                        <li>О нас.</li>
-                        <li>Правообладателем.</li>
-                        <li>Карточка клиента.</li>
-                        <li>Контакты.</li>
-                    </ul>
-					
-					 
 
-					<div class="footer__col  footer__col--second">  <!--блоги -->
-						<div class="footer__title">Блоги</div>
+		<li class="php"><a href="http://address post"> Покупателям</a>
+			<ul>
+				<li><a href="http://address post">Как сделать заказ</a></li>
+				<li><a href="catalog.html">Каталог</a></li>
+				<li><a href="order.html">Корзина</a></li>
+				<li><a href="http://address post">Промокоды</a></li>
+				<li><a href="http://address post">Отзывы о нас</a></li>
+				<li><a href="http://address post">Вопросы и ответы</a></li>
+				<li><a href="http://address post">Обратная связь</a></li>
+			</ul>
+		</li>
 
-						<div class="blogs__item">
-                            <img src="images/blogs/3.jpg" alt="Фото1">
-                            <div class="blogs__content">
-                                <a class="blogs__title" href="#">10 способов помочь природе. </a>
-                                <div class="blogs__date"> Обновлено Июнь 13, 2022</div>
-                            </div>
-                        </div>
-
-                        <div class="blogs__item">
-                            <img src="images/blogs/1.jpg" alt="Фото2">
-                            <div class="blogs__content">
-                                <a class="blogs__title" href="#">Как улучшить экологию.</a>
-                                <div class="blogs__date">Обновлено Июнь 13, 2022</div>
-                            </div>
-                        </div>
-
-                        <div class="blogs__item">
-                            <img src="images/blogs/2.jpg" alt="Фото3">
-                            <div class="blogs__content">
-                                <a class="blogs__title" href="#">10 примеров заботы о планете.</a>
-                                <div class="blogs__date"> Обновлено Июнь 13, 2022</div>
-                            </div>
-                        </div>
-						
-						<div class="blogs__item">
-                            <img src="images/blogs/4.jpg" alt="Фото3">
-                            <div class="blogs__content">
-                                <a class="blogs__title" href="#">4 примера утилизации мусора.</a>
-                                <div class="blogs__date"> Обновлено Июнь 13, 2022</div>
-                            </div>
-                        </div>
-                    </div> <!-- /.Блоги -->
-					
-				<div class="footer__col  footer__col--third">
-                    <div class="footer__title">Телеграм</div>  <!--Телеграм -->
-					
-					<div class="Telegram__item">
-                            <img src="images/Telegram/4.jpg" alt="Фото3">
-                            <div class="Telegram__content">
-                                <a class="Telegram__title" href="#">Наш вклад в природу.</a>
-                                <div class="Telegram__date"> </div>
-                            </div>
-					</div>		
-					<div class="Telegram__item">
-                            <img src="images/Telegram/3.jpg" alt="Фото3">
-                            <div class="Telegram__content">
-                                <a class="Telegram__title" href="#">Наш вклад в природу.</a>
-                                <div class="Telegram__date"> </div>
-                            </div>
-					</div>		
-					<div class="Telegram__item">
-                            <img src="images/Telegram/5.jpg" alt="Фото3">
-                            <div class="Telegram__content">
-                                <a class="Telegram__title" href="#">Наш вклад в природу.</a>
-                                <div class="Telegram__date"> </div>
-                            </div>
-					</div>		
-						<div class="Telegram__item">
-                            <img src="images/Telegram/0.jpg" alt="Фото3">
-                            <div class="Telegram__content">
-                                <a class="Telegram__title" href="#">Наш вклад в природу.</a>
-                                <div class="Telegram__date"> </div>
-                            </div>
-						</div>
-                </div>
-				
-                </nav>
-            </div>
-        </section>
-		       <!--подписатся-->
-			 <form class="subscribe" action="/" method="post">  
-                <input class="subscribe__input" type="email" name="name" placeholder="<Ваш электронный адрес>">
-                <button class="subscribe__btn" type="submit">Подписатся</button>
-             </form>
-
-    
-        <section>
+		<li class="js"><a href="http://address post">Мы в соцсетях</a>
+			<ul>
+				<li><a href="http://address post">Вконтакте</a></li>
+				<li><a href="http://address post">Одноклассники</a></li>
+				<li><a href="http://address post">YouTube</a></li>
+				<li><a href="http://address post">Телеграм</a></li>
+				<li><a href="http://address post">Мой Мир</a></li>
+				<li><a href="http://address post">TikTok</a></li>
+			
+			</ul>
+		</li>
+			
+		<li class="php"><a href="http://address post">Для поставщиков</a>
+			<ul>
+				<li><a href="http://address post">Закупки</a></li>
+				<li><a href="http://address post">Раскрытие информации</a></li>
+				<li><a href="http://address post">Инвесторам</a></li>
+				<li><a href="http://address post">Франшиза</a></li>
+				<li><a href="http://address post">Перевозчикам</a></li>
+				<li><a href="http://address post">Юридическим лицам</a></li>
+				<li><a href="http://address post">Корпаративный блок</a></li>
+			</ul>
+		</li>
+			
+		<li class="js"><a href="http://address post">Доставка</a>
+			<ul>
+				<li><a href="http://address post">Доставка курьером</a></li>
+				<li><a href="http://address post">Доставка транспортной компанией</a></li>
+				<li><a href="http://address post">Самовывоз</a></li>
+				<li><a href="http://address post">Обмен и возврат товара</a></li>
+				<li><a href="http://address post">Бонусный клуб</a></li>
+				<li><a href="http://address post">Забрать в магазине</a></li>
+			</ul>
+		</li>
+	</ul>
+			</body>
+         <section>
             <div class="container">
                 <p class="copy">&copy; 2022 Все права защищены.</p>
             </div>
         </section>
     </footer>
+</body>
+</html> 
+
 </body>
 </html>
