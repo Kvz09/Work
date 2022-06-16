@@ -121,7 +121,7 @@
 			width: auto;  /*100% не проходит*/
 			height: 500px;
 			}
-			.html,  .js{
+			.html, .css, .php, .js{
 			float: left;
 			margin: 3px 3px 3px 3px;
 			width: 260px;
@@ -192,8 +192,8 @@
 		<li class="php"><a href="http://address post"> Покупателям</a>
 			<ul>
 				<li><a href="http://address post">Как сделать заказ</a></li>
-				<li><a href="http://address post">Способы оплаты</a></li>
-				<li><a href="http://address post">Рассылка</a></li>
+				<li><a href="catalog.html">Каталог</a></li>
+				<li><a href="order.html">Корзина</a></li>
 				<li><a href="http://address post">Промокоды</a></li>
 				<li><a href="http://address post">Отзывы о нас</a></li>
 				<li><a href="http://address post">Вопросы и ответы</a></li>
