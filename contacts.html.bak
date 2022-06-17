@@ -18,7 +18,7 @@
 <body>
     <header>
         <section>
-		<div class="flame" id="fire">Интернет магазин "Забота о природе"</div
+		<div class="flame" id="fire">Интернет магазин "Забота о природе"</div>
         </section>
         
         <section class="mainhead">
@@ -78,8 +78,8 @@
             <div class="map">
                 <h2 class="map__title">
                     <div><i class="fas fa-map-marker-alt"></i></div>
-                    <a href=https://yandex.ru/maps/?um=constructor%3A87ecfbc76b28523459817d3475a72bf0cbaf71436a79b9b1bc476c70e4c41289&source=constructorLink  width="50%" height="400" frameborder="0"> 
-	<div class="arrow-9"></div> Точки самообслуживания Жми. <div class="arrow-10"></div></a></h2>
+                    <a href=https://yandex.ru/maps/?um=constructor%3A87ecfbc76b28523459817d3475a72bf0cbaf71436a79b9b1bc476c70e4c41289&source=constructorLink  width="50%" height="auto" width="auto"  frameborder="0"> 
+	<div class="arrow-9"></div> Точки самообслуживания. Жми. <div class="arrow-10"></div></a></h2>
             </div>
         </div>
 		
@@ -97,7 +97,7 @@
 			border-radius: 0px;
 			box-shadow: 0px 0px 0px 2px #006400;
 			width: auto;  /*100% не проходит*/
-			height: 500px;
+			height: 450px;
 			}
 			.html, .css, .php, .js{
 			float: left;
