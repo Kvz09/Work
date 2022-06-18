@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+	<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title></title>
+		
+		<link rel="stylesheet" href="css/style.css">
+		
+		<script src="js/jquery-3.6.0.min.js"></script>
+		
+		<script src="js/scripts.js"></script>
+		
+		<script src="js/main.js"></script>
+	</head>
+ 
+    <header>
+         
+          
+
+					<body>
+					<div class="main-header">
+					<h1 class="main-title"><div class="flame" id="fire">Интернет магазин "Забота о природе" <di>т.8 499 999 99 99 eadcv@mail.ru</di></h1></div>
+					</div>
+					
+					
+					
+					</body>
+
+
+
+
+
+
+	   
+        <section class="mainhead">
+            <div class="container">
+                <a href="index.html" class="icon logo"></a>
+                <div class="searschform"></div>
+                <a href="#" class="icon login"></a>
+                <a href="order.html" class="icon order"></a>
+            </div>
+        </section>
+        
+        <section>
+            <nav class="container">
+                <a href="index.html">Главная</a>
+                <a href="catalog.html" class="current">Каталог</a>
+                <a href="product.html">Товар</a>
+                <a href="order.html">Корзина</a>
+                <a href="contacts.html">Контакты</a>
+				
+				
+            </nav>
+        </section>
+    </header>
+    
+			<main>
+			<!--анимация квадрат расплавающий-->
+			<!--<di>т.8 499 999 99 99 eadcv@mail.ru</di>-->
+			
+			
+			
+			
+			
+	
+         </main>
+    
+    
+   <footer>
+	
+	<style>
+			.meny{
+			background: #006400;
+			padding: 5px;
+			border-radius: 0px;
+			box-shadow: 0px 0px 0px 2px #006400;
+			width: auto;  /*100% не проходит*/
+			height: 450px;
+			}
+			.html, .css, .php, .js{
+			float: left;
+			margin: 3px 3px 3px 3px;
+			width: 260px;
+			}
+			ul {
+			width: 260px; 
+			list-style: none;
+			padding: 0;
+			margin: 0 0 0 0;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 22px;
+			text-align: center;
+			}
+			li ul {
+			position: absolute;
+			display: none;
+			margin-left: 0px;
+			margin-top: 0px;
+			}
+			li a {
+			display: block;
+			padding: 20px;
+			text-decoration: none;
+			color: #006400;
+			border-radius: 20px;
+			box-shadow: 0px 0px 0px 2px #0ea8f4;     
+			background: #7df9ff;    
+			background: -moz-radial-gradient(center, ellipse cover, #7df9ff 50%, #FBFFFF);     
+			background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(50%,#7df9ff), color-stop(100%,#FBFFFF));
+			background: -webkit-radial-gradient(center, ellipse cover, #7df9ff 50%, #FBFFFF);
+			background: -o-radial-gradient(center, ellipse cover, #7df9ff 50%, #FBFFFF);
+			background: -ms-radial-gradient(center, ellipse cover, #7df9ff 50%, #FBFFFF);
+			}
+			li a:hover {         
+			color: #ffe;     
+			box-shadow: 0px 0px 5px 2px #0ea8f4; 
+			background: #009494;     
+			background: -moz-radial-gradient(center, ellipse cover, #009494, #FBFFFF);        
+			background: -webkit-gradient(radial, center center, 0px, center center, 100%,    color-stop(0%,#009494), color-stop(100%,#FBFFFF));
+			background: -webkit-radial-gradient(center, ellipse cover, #009494, #FBFFFF);
+			background: -o-radial-gradient(center, ellipse cover, #009494, #FBFFFF);
+			background: -ms-radial-gradient(center, ellipse cover, #009494, #FBFFFF);
+			}
+			li a:active{        
+			color: #ef7a04;
+			box-shadow: 0px 0px 15px 5px #0ea8f4;
+			}
+			li:hover ul {         
+			display: block;     
+			}
+	</style>
+ <body>
+	<ul class="meny">
+		<li class="html"><a href="http://address post">О Компании</a>
+			<ul>
+				<li><a href="http://address post">О нас</a></li>
+				<li><a href="http://address post">Реквизиты</a></li>
+				<li><a href="http://address post">Пресс-центр</a></li>
+				<li><a href="contacts.html">Контакты</a></li>
+				<li><a href="http://address post">Правила продажи</a></li>
+				<li><a href="http://address post">Политика конфиденциальности</a></li>
+			</ul>
+		</li>
+			
+
+		<li class="php"><a href="http://address post"> Покупателям</a>
+			<ul>
+				<li><a href="catalog.html">Каталог</a></li>
+				<li><a href="order.html">Корзина</a></li>
+				<li><a href="http://address post">Промокоды</a></li>
+				<li><a href="http://address post">Отзывы о нас</a></li>
+				<li><a href="http://address post">Вопросы и ответы</a></li>
+				<li><a href="http://address post">Обратная связь</a></li>
+			</ul>
+		</li>
+
+		<li class="js"><a href="http://address post">Мы в соцсетях</a>
+			<ul>
+				<li><a href="http://address post">Вконтакте</a></li>
+				<li><a href="http://address post">Одноклассники</a></li>
+				<li><a href="http://address post">YouTube</a></li>
+				<li><a href="http://address post">Телеграм</a></li>
+				<li><a href="http://address post">Мой Мир</a></li>
+				<li><a href="http://address post">TikTok</a></li>
+			
+			</ul>
+		</li>
+			
+		<li class="php"><a href="http://address post">Для поставщиков</a>
+			<ul>
+				<li><a href="http://address post">Закупки</a></li>
+				<li><a href="http://address post">Раскрытие информации</a></li>
+				<li><a href="http://address post">Инвесторам</a></li>
+				<li><a href="http://address post">Франшиза</a></li>
+				<li><a href="http://address post">Перевозчикам</a></li>
+				<li><a href="http://address post">Юридическим лицам</a></li>
+				<li><a href="http://address post">Корпаративный блок</a></li>
+			</ul>
+		</li>
+			
+		<li class="js"><a href="http://address post">Доставка</a>
+			<ul>
+				<li><a href="http://address post">Доставка курьером</a></li>
+				<li><a href="http://address post">Доставка транспортной компанией</a></li>
+				<li><a href="http://address post">Самовывоз</a></li>
+				<li><a href="http://address post">Обмен и возврат товара</a></li>
+				<li><a href="http://address post">Бонусный клуб</a></li>
+				<li><a href="http://address post">Забрать в магазине</a></li>
+			</ul>
+		</li>
+	</ul>
+			</body>
+        <section>
+            <div class="container">
+                <p class="copy">&copy; 2022 Все права защищены.</p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

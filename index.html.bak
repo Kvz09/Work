@@ -37,6 +37,7 @@
                 <a href="product.html">Товар</a>
                 <a href="order.html">Корзина</a>
                 <a href="contacts.html" class="current">Контакты</a>
+				<a href="order1.html">Искуство</a>
             </nav>
         </section>
     </header>
@@ -48,7 +49,7 @@
         <div class="container">
             <div class="section__header">
                 <h2 class="section__title">
-				<p1>Наш интернет магазин продает высоко качественный товар, из переработоного вторсырья.</p1> 
+				<p1>Наш интернет магазин, продает высоко качественный товар, из переработоного вторсырья.</p1> 
 				<br>
 				<br>
 				<p>Интересный  факт.</p>
