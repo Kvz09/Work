@@ -17,9 +17,13 @@
 </head>
 <body>
     <header>
-        <section>
-            <p class="container">Здесь мы можем разместить какое-нибудь информационное сообщение.</p>
-        </section>
+					<body> <!--Всплывающие окно-->
+					<div class="main-header">
+					<h1 class="main-title"><div class="flame" id="fire">
+					Интернет магазин "Забота о природе" <di>т.8 499 999 99 99 
+					eadcv@mail.ru</di></h1></div>
+					</div>
+					</body>
         
         <section class="mainhead">
             <div class="container">
@@ -51,10 +55,13 @@
                             <li class="sub">
                                 <a href="catalog.html">Одежда</a>
                                 <ul>
-                                    <li><a href="product.html">Толстовка</a></li>
+                                   <li><a href="product.html">Толстовка</a></li>
                                     <li><a href="product.html"> Бумажные Пакет</a></li>
                                     <li><a href="product.html">Полителеновая Сумка</a></li>
                                     <li><a href="product.html">Сумка шопер</a></li>
+									<li><a href="product.html">Красовки</a></li>
+									<li><a href="product.html"> Подарочный пакет</a></li>
+									 
                                     <li>
                                         <a href="#">Мыло</a>
                                         <ul>

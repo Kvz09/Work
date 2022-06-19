@@ -17,9 +17,13 @@
 </head>
 <body>
     <header>
-        <section>
-            <p class="container">Здесь мы можем разместить какое-нибудь информационное сообщение.</p>
-        </section>
+					<body> <!--Всплывающие окно-->
+					<div class="main-header">
+					<h1 class="main-title"><div class="flame" id="fire">
+					Интернет магазин "Забота о природе" <di>т.8 499 999 99 99 
+					eadcv@mail.ru</di></h1></div>
+					</div>
+					</body>
         
         <section class="mainhead">
             <div class="container">
@@ -55,6 +59,8 @@
                                     <li><a href="product.html"> Бумажные Пакет</a></li>
                                     <li><a href="product.html">Полителеновая Сумка</a></li>
                                     <li><a href="product.html">Сумка шопер</a></li>
+									<li><a href="product4.html">Подарочный пакет</a></li>
+									<li><a href="product.html">Красовки</a></li>
                                     <li>
                                         <a href="#">Мыло</a>
                                         <ul>
@@ -69,170 +75,9 @@
                     </nav>
                 </aside>
                 
-                <article>
-                    <h1>Толстовка</h1>
-                    
-                    <div class="imagedesk">
-                        <div class="bigimage">
-                            <img src="images/04.jpg" alt="Толстовка">
-                        </div>
-                        <div class="mini">
-                            <div>
-                                <div class="rail">
-                                    <img src="images/mini_01.jpg" alt="Толстовка">
-									
-                                    <img src="images/mini_02.jpg" alt="Толстовка">
-									
-									<img src="images/mini_03.jpg" alt="Толстовка">
-									<img src="images/mini_04.jpg" alt="Толстовка">
-                                </div>
-                            </div>
-                            <span class="gal_left">&#8249;</span>
-                            <span class="gal_right disabled">&#8250;</span>
-                        </div>
-                    </div>
-                    
-                    <div class="pricedesk">
-                        <p class="big">Это Толстовка</p>
-                        <p class="price">5000 &#8381;</p>
-                        <button type="button" class="buy">Купить</button>
-                    </div>
-                    
-                    <div class="descriptions">Толстовка произведена компанией – производителем модных и экологичных премиум-вещей в Европе. Лучший стиль, модные цвета, необыкновенные ткани, — вот что делает одежду уникальной. Эта прогрессивная марка, является ведущим в мире производителем одежды из органического хлопка с использованием экологических ресурсов.</div>
-                </article>
-			
-			<article>
-			         <h1>Бумажный Пакет</h1>
-                    
-                    <div class="imagedesk">
-                        <div class="bigimage">
-                            <img src="images/8.jpg" alt="Бумажный Пакет">
-                        </div>
-                        <div class="mini">
-                            <div>
-                                <div class="rail">
-                                    <img src="images/mini_8.jpg" alt="Бумажный Пакет">
-									<img src="images/mini_10.jpg" alt="Бумажный Пакет">
-									<img src="images/mini_7.jpg" alt="Бумажный Пакет">
-									<img src="images/mini_700.jpg" alt="Бумажный Пакет">
-									<img src="images/mini_701.jpg" alt="Бумажный Пакет">
-									<img src="images/mini_702.jpg" alt="Бумажный Пакет">
-                                </div>
-                            </div>
-                            <span class="gal_left">&#8249;</span>
-                            <span class="gal_right disabled">&#8250;</span>
-                        </div>
-                    </div>
-                    
-                    <div class="pricedesk">
-                        <p class="big">Это Бумажный Пакет</p>
-                        <p class="price">100 &#8381;</p>
-                        <button type="button" class="buy">Купить</button>
-                    </div>
-                    
-                    <div class="descriptions">Производство бумажных пакетов из вторсырья – это прекрасный пример важности сбора и переработки макулатуры, ведь при использовании вторичного сырья не только сберегаются природные леса, но и происходит экономия электроэнергии, воды и других ресурсов, что имеет огромное значение для экологического благополучия планеты.</div>
-                </article>
-			
-			<article>
-			         <h1>Полителеновая Сумка </h1>
-                    
-                    <div class="imagedesk">
-                        <div class="bigimage">
-                            <img src="images/21.jpg" alt="Полителеновая Сумка">
-                        </div>
-                        <div class="mini">
-                            <div>
-                                <div class="rail">
-                                    <img src="images/mini_21.jpg" alt="Полителеновая Сумка">
-									<img src="images/mini_22.jpg" alt="Полителеновая Сумка">
-									<img src="images/mini_23.jpg" alt="Полителеновая Сумка">
-									<img src="images/mini_24.jpg" alt="Полителеновая Сумка">
-									<img src="images/mini_25.jpg" alt="Полителеновая Сумка">
-									<img src="images/mini_26.jpg" alt="Полителеновая Сумка">
-                                </div>
-                            </div>
-                            <span class="gal_left">&#8249;</span>
-                            <span class="gal_right disabled">&#8250;</span>
-                        </div>
-                    </div>
-                    
-                    <div class="pricedesk">
-                        <p class="big">Это Полителеновые Сумки</p>
-                        <p class="price">190 &#8381;</p>
-                        <button type="button" class="buy">Купить</button>
-                    </div>
-                    
-                    <div class="descriptions">Простой и доступный шаг: купить сумку из переработанного пластика, на которой приведена информация о количестве бутылок, не попавших в окружающую среду, а отправленных приносить пользу. При этом сумка — одна из самых прочных и выдерживает нагрузку до 15 кг. Многоразовые сумки в сложенном виде легко помещаются в карман.</div>
-                </article>
-			
-			<article>
-			         <h1>Сумка шопер</h1>
-                    
-                    <div class="imagedesk">
-                        <div class="bigimage">
-                            <img src="images/12.jpg" alt="">
-                        </div>
-                        <div class="mini">
-                            <div>
-                                <div class="rail">
-                                    <img src="images/mini_12.jpg" alt="Сумка шопер">
-									<img src="images/mini_30.jpg" alt="Сумка шопер">
-									<img src="images/mini_31.jpg" alt="Сумка шопер">
-									<img src="images/mini_32.jpg" alt="Сумка шопер">
-									<img src="images/mini_33.jpg" alt="Сумка шопер">
-									<img src="images/mini_34.jpg" alt="Сумка шопер">
-									<img src="images/mini_35.jpg" alt="Сумка шопер">
-                                </div>
-                            </div>
-                            <span class="gal_left">&#8249;</span>
-                            <span class="gal_right disabled">&#8250;</span>
-                        </div>
-                    </div>
-                    
-                    <div class="pricedesk">
-                        <p class="big">Это Сумка шопер</p>
-                        <p class="price">210 &#8381;</p>
-                        <button type="button" class="buy">Купить</button>
-                    </div>
-                    
-                    <div class="descriptions">Сумка-шоппер это простая сумка с одним отделением. Она пригодится, чтобы сходить за покупками или в спортзал, в ней можно взять с собой обед, спортивную форму или ... Компактный и стильный шоппер из тайвека это настоящая инвестиция. В будующие Планеты! </div>
-                </article>
-			
-			<article>
-			         <h1>Мыло</h1>
-                    
-                    <div class="imagedesk">
-                        <div class="bigimage">
-                            <img src="images/14.jpg" alt="">
-                        </div>
-                        <div class="mini">
-                            <div>
-                                <div class="rail">
-                                    <img src="images/mini_14.jpg" alt="Натуральное мыло">
-									<img src="images/mini_00.jpg" alt="Натуральное мыло">
-									<img src="images/mini_001.jpg" alt="Натуральное мыло">
-									<img src="images/mini_002.jpg" alt="Натуральное мыло">
-									<img src="images/mini_003.jpg" alt="Натуральное мыло">
-									<img src="images/mini_004.jpg" alt="Натуральное мыло">
-									<img src="images/mini_002.jpg" alt="Натуральное мыло">
-                                </div>
-                            </div>
-                            <span class="gal_left">&#8249;</span>
-                            <span class="gal_right disabled">&#8250;</span>
-                        </div>
-                    </div>
-                    
-                    <div class="pricedesk">
-                        <p class="big">Это Натуральное мыло</p>
-                        <p class="price">210 &#8381;</p>
-                        <button type="button" class="buy">Купить</button>
-                    </div>
-                    
-                    <div class="descriptions">Натуральное мыло с тропическим ароматом сочного манго – красивая забота природы в чистом виде. Мыло бережно очищает кожу, не повреждая естественный липидный баланс, эффективно питает и увлажняет, способствует сохранению молодости.  </div>
-                </article>
-				
+ 
 				<article>
-			         <h1>Подарочные пакеты</h1>
+			         <h1>Подарочный пакет</h1>
                     
                     <div class="imagedesk">
                         <div class="bigimage">
@@ -241,13 +86,13 @@
                         <div class="mini">
                             <div>
                                 <div class="rail">
-                                    <img src="images/mini_13.jpg" alt="Подарочные пакеты">
-									<img src="images/mini_05.jpg" alt="Подарочные пакеты">
-									<img src="images/mini_006.jpg" alt="Подарочные пакеты">
-									<img src="images/mini_06.jpg" alt="Подарочные пакеты">
-									<img src="images/mini_07.jpg" alt="Подарочные пакеты">
-									<img src="images/mini_08.jpg" alt="Подарочные пакеты">
-									<img src="images/mini_09.jpg" alt="Подарочные пакеты">
+                                    <img src="images/mini_13.jpg" alt="Подарочный пакет">
+									<img src="images/mini_05.jpg" alt="Подарочный пакет">
+									<img src="images/mini_006.jpg" alt="Подарочный пакет">
+									<img src="images/mini_06.jpg" alt="Подарочный пакет">
+									<img src="images/mini_07.jpg" alt="Подарочный пакет">
+									<img src="images/mini_08.jpg" alt="Подарочный пакет">
+									<img src="images/mini_09.jpg" alt="Подарочный пакет">
                                 </div>
                             </div>
                             <span class="gal_left">&#8249;</span>
@@ -256,7 +101,7 @@
                     </div>
                     
                     <div class="pricedesk">
-                        <p class="big">Это Подарочные пакеты</p>
+                        <p class="big">Это Подарочный пакет</p>
                         <p class="price">60 &#8381;</p>
                         <button type="button" class="buy">Купить</button>
                     </div>
@@ -264,38 +109,6 @@
                     <div class="descriptions">Полиэтиленовые пакеты из вторсырья не уступают по своей пластичности, прочности и износостойкости изделиям из первичного материала. Однако они заметно дешевле и их использование может принести дополнительную прибыль при упаковке товаров и готовой продукции.  </div>
                 </article>
 				
-				<article>
-			         <h1>Красовки</h1>
-                    
-                    <div class="imagedesk">
-                        <div class="bigimage">
-                            <img src="images/200.jpg" alt="">
-                        </div>
-                        <div class="mini">
-                            <div>
-                                <div class="rail">
-                                    <img src="images/mini_200.jpg" alt="Красовки">
-									<img src="images/mini_201.jpg" alt="Красовки">
-									<img src="images/mini_202.jpg" alt="Красовки">
-									<img src="images/mini_203.jpg" alt="Красовки">
-									<img src="images/mini_204.jpg" alt="Красовки">
-									<img src="images/mini_205.jpg" alt="Красовки">
-									<img src="images/mini_206.jpg" alt="Красовки">
-                                </div>
-                            </div>
-                            <span class="gal_left">&#8249;</span>
-                            <span class="gal_right disabled">&#8250;</span>
-                        </div>
-                    </div>
-                    
-                    <div class="pricedesk">
-                        <p class="big">Это Красовки</p>
-                        <p class="price">4060 &#8381;</p>
-                        <button type="button" class="buy">Купить</button>
-                    </div>
-                    
-                    <div class="descriptions"> Каждая пара состоит на 100% из уже использованного пластика и других переработанных материалов. Кроссовки   выполнены в бело-бирюзовом цвете, а их дизайн почти не отличается от других линеек. Однако их несомненным плюсом является не только эстетика, но и практичная польза в виде помощи в борьбе с экологической катастрофой. Подошва выполнена из резины, которая также обретает вторую жизнь, а декоративные элементы сделаны из экологически чистого пеноматериала.  </div>
-                </article>
             </div>
         </section>
     </main>
