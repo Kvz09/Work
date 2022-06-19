@@ -698,25 +698,25 @@ footer section {
 
 
 /* Телеграм */
-.blogs__item {
+.Telegram__item {
     display: flex;
     margin-bottom: 0px; /*поле с низу*/
 	margin-left: 120px; /*отступ от левого края*/
 }
 
-.blogs__img {  /*ширина и высота фотки*/
+.Telegram__img {  /*ширина и высота фотки*/
     width: 500px;
     height: 500px;
    }
    
 
-.blogs__content { /*отступ с лева текст*/
+.Telegram__content { /*отступ с лева текст*/
     
 	margin-top: 480px; /* Отступ сверху */
 	text-align: justify
 }
 
-.blogs__title {  /*текст в блоге*/
+.Telegram__title {  /*текст в блоге*/
     margin-bottom: 15px;
    font-size: 35px;
     line-height: 1.5;
@@ -727,7 +727,7 @@ footer section {
 	text-decoration: blink;
 	}
 	
-.blogs__title:hover {
+.Telegram__title:hover {
     text-decoration: underline;
 	
 }

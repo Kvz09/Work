@@ -173,11 +173,11 @@
                 </div>
             </div>
 
-            <div class="works__col">
+          <!--  <div class="works__col">
                 <div class="works__item">
                     <img class="works__image" src="images/works/3.jpg" alt="">
                 </div>
-            </div>
+            </div>  -->
 
             <div class="works__col">
                 <div class="works__item">
