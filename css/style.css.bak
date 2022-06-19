@@ -61,7 +61,7 @@ h1 {
 		width: 200px;
 		height: 200px;
 		background-color: #ffd700; /*цвет треугольника*/
-		animation: nev 20s infinite alternate;
+		animation: nev 10s infinite alternate;
 		}
 		@keyframes nev {
 		0% {
@@ -84,6 +84,41 @@ h1 {
 		}
 		}
   /*/вращающий квадрат*/
+  
+  
+  
+  /*/ анимация №2*/
+ diz {
+	
+		border: 3px solid #00FA9A; /* Параметры рамки  и цвет рамки*/
+		padding: 10px; /* Поля вокруг текста */
+		height: 200px;
+		background-color: transparent; /*цвет треугольника*/
+		animation: /*nev 30s infinite alternate;*/
+		}
+		@keyframes nev {
+		0% {
+		opacity: 0;
+		border-radius: 50%;
+		}
+		20% {
+		opacity: 0.2;
+		border-radius: 40%;
+		}
+
+		50% {
+		opacity: 0.5;
+		border-radius: 30%;
+		}
+
+		100% {
+		opacity: 1;
+		border-radius: 0;
+		}
+		}
+  /*/ анимация №2*/
+  
+  
 
  .flame {  /*пылающие пламя*/
  
@@ -663,80 +698,78 @@ footer section {
 
 
 /* Телеграм */
-.Telegram__item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.Telegram__img {  /*ширина и высота фотки*/
-    width: 50px;
-    height: 50px;
-}
-
-.Telegram__content {
-    padding-left: 20px;
-}
-
-.Telegram__title {
-    display: block;
-    margin-bottom: 5px;
-
-    color: #4B0AFF;
-    font-size: 12px;
-    line-height: 1.5;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-.Telegram__title:hover {
-    text-decoration: underline;
-}
-
-.Telegram__date {  /*дата*/
-    font-size: 13px;
-    color: #FFFB14;
-    font-weight: 300;
-} 
- 
-
-/* Блоги*/
 .blogs__item {
     display: flex;
-    
     margin-bottom: 0px; /*поле с низу*/
 	margin-left: 120px; /*отступ от левого края*/
 }
 
 .blogs__img {  /*ширина и высота фотки*/
-    width: 90%;
-    height: 90%;
-}
+    width: 500px;
+    height: 500px;
+   }
+   
 
 .blogs__content { /*отступ с лева текст*/
-    padding-left: 120px; /*отступ с лева текст*/
-	margin-top: 100px; /* Отступ сверху */
+    
+	margin-top: 480px; /* Отступ сверху */
+	text-align: justify
 }
 
 .blogs__title {  /*текст в блоге*/
-   
-    margin-bottom: 135px;
-
-   font-size: 22px;
-    
+    margin-bottom: 15px;
+   font-size: 35px;
     line-height: 1.5;
     text-transform: uppercase;
     text-decoration: none;
 	margin: 0;
-    margin-left: -760px; /* Отступ слева */
+    margin-left: -800px; /* Отступ слева */
+	text-decoration: blink;
 	}
 	
-
-
 .blogs__title:hover {
     text-decoration: underline;
+	
+}
+ 
+
+/* Блоги*/
+.blogs__item {
+    display: flex;
+    margin-bottom: 0px; /*поле с низу*/
+	margin-left: 120px; /*отступ от левого края*/
+}
+
+.blogs__img {  /*ширина и высота фотки*/
+    width: 500px;
+    height: 500px;
+   }
+   
+
+.blogs__content { /*отступ с лева текст*/
+    
+	margin-top: 480px; /* Отступ сверху */
+	text-align: justify
+}
+
+.blogs__title {  /*текст в блоге*/
+    margin-bottom: 15px;
+   font-size: 35px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-decoration: none;
+	margin: 0;
+    margin-left: -800px; /* Отступ слева */
+	text-decoration: blink;
+	}
+	
+.blogs__title:hover {
+    text-decoration: underline;
+	
 }
  /*/Блоги */
+
+
 
 /* Всплывающая Карта*/
 
