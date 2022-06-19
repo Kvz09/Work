@@ -218,7 +218,7 @@ opacity: 1;
 
 
 .question input {
-	width: 460px;
+	width: 480px;
 	height: 50px;
 	padding: 0 32px 0 32px;
 	margin-right: 32px;
@@ -411,6 +411,123 @@ a1{
     background: rgba(0,0,0,0.6);
 }
 
+/* три поля */
+
+.advantages h1 {
+	margin: 64px 0 64px;
+	text-align: center;
+
+}
+
+.advantages_flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 64px;
+}
+
+.advantages_block {
+	width: 464px;
+	height: 111px;
+	clear: both;
+}
+
+.advantages_block h3 {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 37px;
+	text-transform: uppercase;
+	color: #424242;
+}
+
+.advantages_block p {
+	line-height: 22px;
+	color: #424242;
+	margin-top: 1px;
+	margin-left: 40px;
+}
+
+.advantages_1::before {
+	content: url('../images/1.jpg');
+	margin-left: 40px; /*поле-левое*/
+	float: left;
+
+}
+.advantages_2::before {
+	content: url('../images/_3.jpg');
+	float: left;
+	margin-left: 44px;
+}
+.advantages_3::before {
+	content: url('../images/3.jpg');
+	float: left;
+	margin-left: 44px;
+}
+
+/*три поля */
+
+
+					/*/Всплывающая карта*/
+.meny{
+			background: #006400;
+			padding: 5px;
+			border-radius: 0px;
+			box-shadow: 0px 0px 0px 2px #006400;
+			width: auto;  /*100% не проходит*/
+			height: 450px;
+			}
+			.html, .css, .php, .js{
+			float: left;
+			margin: 3px 3px 3px 3px;
+			width: 260px;
+			}
+			ul {
+			width: 260px; 
+			list-style: none;
+			padding: 0;
+			margin: 0 0 0 0;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 22px;
+			text-align: center;
+			}
+			li ul {
+			position: absolute;
+			display: none;
+			margin-left: 0px;
+			margin-top: 0px;
+			}
+			li a {
+			display: block;
+			padding: 20px;
+			text-decoration: none;
+			color: #006400;
+			border-radius: 20px;
+			box-shadow: 0px 0px 0px 2px #0ea8f4;     
+			background: #7df9ff;    
+			background: -moz-radial-gradient(center, ellipse cover, #7df9ff 50%, #FBFFFF);     
+			background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(50%,#7df9ff), color-stop(100%,#FBFFFF));
+			background: -webkit-radial-gradient(center, ellipse cover, #7df9ff 50%, #FBFFFF);
+			background: -o-radial-gradient(center, ellipse cover, #7df9ff 50%, #FBFFFF);
+			background: -ms-radial-gradient(center, ellipse cover, #7df9ff 50%, #FBFFFF);
+			}
+			li a:hover {         
+			color: #ffe;     
+			box-shadow: 0px 0px 5px 2px #0ea8f4; 
+			background: #009494;     
+			background: -moz-radial-gradient(center, ellipse cover, #009494, #FBFFFF);        
+			background: -webkit-gradient(radial, center center, 0px, center center, 100%,    color-stop(0%,#009494), color-stop(100%,#FBFFFF));
+			background: -webkit-radial-gradient(center, ellipse cover, #009494, #FBFFFF);
+			background: -o-radial-gradient(center, ellipse cover, #009494, #FBFFFF);
+			background: -ms-radial-gradient(center, ellipse cover, #009494, #FBFFFF);
+			}
+			li a:active{        
+			color: #ef7a04;
+			box-shadow: 0px 0px 15px 5px #0ea8f4;
+			}
+			li:hover ul {         
+			display: block;     
+			}
+         /*/Всплывающая карта*/
 
 /* icons */
 .icon::before {

@@ -218,7 +218,7 @@ opacity: 1;
 
 
 .question input {
-	width: 460px;
+	width: 480px;
 	height: 50px;
 	padding: 0 32px 0 32px;
 	margin-right: 32px;
@@ -227,7 +227,7 @@ opacity: 1;
 }
 
 .question button {
-	width: 526.9px;
+	width: 546.1px;
 	height: 50px;
 	background: linear-gradient(102.48deg, #976464 -50.03%, #CFA5A5 50.75%);
 	margin-top: 0px;
@@ -410,6 +410,62 @@ a1{
     bottom: 0;
     background: rgba(0,0,0,0.6);
 }
+
+/* три поля */
+
+.advantages h1 {
+	margin: 64px 0 64px;
+	text-align: center;
+
+}
+
+.advantages_flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 64px;
+}
+
+.advantages_block {
+	width: 464px;
+	height: 111px;
+	clear: both;
+}
+
+.advantages_block h3 {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 37px;
+	text-transform: uppercase;
+	color: #424242;
+}
+
+.advantages_block p {
+	line-height: 22px;
+	color: #424242;
+	margin-top: 1px;
+	margin-left: 40px;
+}
+
+.advantages_1::before {
+	content: url('../images/1.jpg');
+	margin-left: 40px; /*поле-левое*/
+	float: left;
+
+}
+.advantages_2::before {
+	content: url('../images/_3.jpg');
+	float: left;
+	margin-left: 44px;
+}
+.advantages_3::before {
+	content: url('../images/3.jpg');
+	float: left;
+	margin-left: 44px;
+}
+
+/*три поля */
+
 
 					/*/Всплывающая карта*/
 .meny{

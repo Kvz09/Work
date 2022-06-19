@@ -200,16 +200,38 @@
             </div>
         </section>
         
-		
-
         <section>
             <div class="container"> Природа – это прекрасный мир, который окружает человека. Это горы, поля, леса,
 			реки, 	озера. Природа дает людям кров, пищу и одежду, это воздух, которым они дышат. Не беречь природу, 
 			значит не беречь себя и своих близких. </div>
         </section>	
 		
+		<!-- about  На рынке уже более 12 лет  --> 
+                <section id="advantages" class="advantages">
+                    <h1 class="title">Интернет магазин "Забота о природе"</h1>
+                    <div class="advantages_flex">
+                        <div class="advantages_block advantages_1">
+                            <h3>Доставка.</h3>
+                            <p>1. Курьерская доставка.<br>
+									<p>2. Самовывоз.<br>
+									<p>3. Почта России / EMS.</p>
+                        </div>
+                        <div class="advantages_block advantages_2">
+                            <h3>Товары.</h3>
+                            <p>Мы  продаем высоко качественные <br>товары, из вторсырья <br> по доступным ценам.</p>
+                        </div>
+                        <div class="advantages_block advantages_3">
+                            <h3>Природа.</h3>
+                            <p>Покупая у нас продукцию  <br>из  вторсырья. Мы вместе спосаем <br> от гибели нашу Планету.</p>
+                        </div>
+                    </div>
+                </section>
+			<!-- about  На рынке уже более -->
+		
+		
+		
 		<section class="question"> <!--Есть вопросы. Мы перезвоним!-->
-                    <h1 class="title">Есть вопросы. Мы перезвоним!</h1>
+                    <h1 class="title">Есть вопросы? Мы перезвоним!</h1>
                     <p class="question_text">вопросы</p>
                     <form action="" method="get" id="question">
                         <input type="text" id="name" name="user_name" 
@@ -299,3 +321,6 @@
     </footer>
 </body>
 </html> 
+
+</body>
+</html>
