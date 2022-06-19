@@ -700,43 +700,43 @@ footer section {
 } 
  
 
-/* Блоги подвал */
+/* Блоги*/
 .blogs__item {
     display: flex;
-    align-items: center;
-    margin-bottom: 30px;
+    
+    margin-bottom: 0px; /*поле с низу*/
+	margin-left: 120px; /*отступ от левого края*/
 }
 
 .blogs__img {  /*ширина и высота фотки*/
-    width: 50px;
-    height: 50px;
+    width: 90%;
+    height: 90%;
 }
 
-.blogs__content {
-    padding-left: 20px;
+.blogs__content { /*отступ с лева текст*/
+    padding-left: 120px; /*отступ с лева текст*/
+	margin-top: 100px; /* Отступ сверху */
 }
 
-.blogs__title {
-    display: block;
-    margin-bottom: 5px;
+.blogs__title {  /*текст в блоге*/
+   
+    margin-bottom: 135px;
 
-    color: #4B0AFF;
-    font-size: 12px;
+   font-size: 25px;
+    
     line-height: 1.5;
     text-transform: uppercase;
     text-decoration: none;
-}
+	margin: 0;
+    margin-left: -760px; /* Отступ слева */
+	}
+	
+
 
 .blogs__title:hover {
     text-decoration: underline;
 }
-
-.blogs__date {  /*дата*/
-    font-size: 13px;
-    color: #FFFB14;
-    font-weight: 300;
-} 
-/*/Блоги подвал*/
+ /*/Блоги */
 
 /* Всплывающая Карта*/
 

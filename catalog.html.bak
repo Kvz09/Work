@@ -123,7 +123,7 @@
                     <h1>Каталог товаров</h1>
                     
                      <div class="item-desk">
-                        <div class="item" data-href="product0.html">
+                        <div class="item" data-href="product.html">
                         
                             <h3>Толстовка</h3>
                             <img src="images/Каталог товаров/0.png" alt="Толстовка">

@@ -49,8 +49,6 @@
     </header>
     
 			<main>
-			<!--анимация квадрат расплавающий-->
-			<di>т.8 499 999 99 99 eadcv@mail.ru</di>-->
 			
 				<!-- три поля  --> 
                 <section id="advantages" class="advantages">
@@ -80,35 +78,37 @@
 						<div class="footer__title">Блоги</div>
 
 						<div class="blogs__item">
-                            <img src="images/blogs/3.jpg" alt="Фото1">
+                            <img src="images/blogs/2.jpg" alt="Фото1">
                             <div class="blogs__content">
-                                <a class="blogs__title" href="#">10 способов помочь природе. </a>
-                                <div class="blogs__date"> Обновлено Июнь 13, 2022</div>
+                                <a class="blogs__title" href="#">
+								<di>10 способов помочь природе.</di> </a>
+                                
                             </div>
                         </div>
 
                         <div class="blogs__item">
-                            <img src="images/blogs/1.jpg" alt="Фото2">
+                            <img src="images/blogs/4.jpg" alt="Фото2">
                             <div class="blogs__content">
-                                <a class="blogs__title" href="#">Как улучшить экологию.</a>
-                                <div class="blogs__date">Обновлено Июнь 13, 2022</div>
-                            </div>
+                                <a class="blogs__title" href="#">
+								<di>Как улучшить экологию.</di></a> 
+								</div>
                         </div>
 
                         <div class="blogs__item">
-                            <img src="images/blogs/2.jpg" alt="Фото3">
+                            <img src="images/blogs/3.jpg" alt="Фото3">
                             <div class="blogs__content">
-                                <a class="blogs__title" href="#">10 примеров 
-								заботы о планете.</a>
-                                <div class="blogs__date"> Обновлено Июнь 13, 2022</div>
+                                <a class="blogs__title" href="#"> <di>10 примеров 
+								заботы о планете.</di></a>
+                               
                             </div>
                         </div>
 						
 						<div class="blogs__item">
-                            <img src="images/blogs/4.jpg" alt="Фото3">
+                            <img src="images/blogs/1.jpg" alt="Фото3">
                             <div class="blogs__content">
-                                <a class="blogs__title" href="#">4 примера утилизации мусора.</a>
-                                <div class="blogs__date"> Обновлено Июнь 13, 2022</div>
+                                <a class="blogs__title" href="#">
+								<di><h1>4 примера утилизации мусора.<h1></di></a>
+                               
                             </div>
                         </div>
                     </div> <!-- /.Блоги -->
