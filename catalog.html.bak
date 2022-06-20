@@ -20,7 +20,7 @@
          <body> 
 					<!--Всплывающие окно-->
 					<div class="main-header">
-					<h1> class="main-title"><div class="flame" id="fire">
+					<h1 class="main-title"><div class="flame" id="fire">
 					Интернет магазин "Забота о природе" <di>т.8 499 999 99 99 
 					eadcv@mail.ru</di></h1></div>
 					</div>
@@ -123,7 +123,7 @@
                     <h1>Каталог товаров</h1>
                     
                      <div class="item-desk">
-                        <div class="item" data-href="product.html">
+                        <div class="item" data-href="product0.html">
                         
                             <h3>Толстовка</h3>
                             <img src="images/Каталог товаров/0.png" alt="Толстовка">

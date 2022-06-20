@@ -91,15 +91,16 @@
 	</section>
     </main>
     
-   <footer>
- <body>
+  <footer>
+
+    <body>
 	<ul class="meny">
 		<li class="html"><a href="http://address post">О Компании</a>
 			<ul>
 				<li><a href="http://address post">О нас</a></li>
 				<li><a href="http://address post">Реквизиты</a></li>
 				<li><a href="http://address post">Пресс-центр</a></li>
-				<li><a href="                    ">Контакты</a></li>
+				<li><a href="              ">Контакты</a></li>
 				<li><a href="http://address post">Правила продажи</a></li>
 				<li><a href="http://address post">Политика конфиденциальности</a></li>
 			</ul>
@@ -108,8 +109,8 @@
 
 		<li class="php"><a href="http://address post"> Покупателям</a>
 			<ul>
-				<li><a href="                  ">Каталог</a></li>
-				<li><a href="                  ">Корзина</a></li>
+				<li><a href="                   ">Каталог</a></li>
+				<li><a href="                    ">Корзина</a></li>
 				<li><a href="http://address post">Промокоды</a></li>
 				<li><a href="http://address post">Отзывы о нас</a></li>
 				<li><a href="http://address post">Вопросы и ответы</a></li>
@@ -137,7 +138,7 @@
 				<li><a href="http://address post">Франшиза</a></li>
 				<li><a href="http://address post">Перевозчикам</a></li>
 				<li><a href="http://address post">Юридическим лицам</a></li>
-	
+			
 			</ul>
 		</li>
 			
@@ -147,7 +148,6 @@
 				<li><a href="http://address post">Доставка транспортной компанией</a></li>
 				<li><a href="http://address post">Самовывоз</a></li>
 				<li><a href="http://address post">Обмен и возврат товара</a></li>
-				<li><a href="http://address post">Бонусный клуб</a></li>
 				<li><a href="http://address post">Забрать в магазине</a></li>
 			</ul>
 		</li>

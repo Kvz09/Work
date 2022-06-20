@@ -45,11 +45,13 @@
 <body>
     <header>
 	
-	<section>
-		<div class="flame" id="fire">Интернет магазин "Забота о природе"</div>
-		
-        
-        </section>
+					<body> <!--Всплывающие окно-->
+					<div class="main-header">
+					<h1 class="main-title"><div class="flame" id="fire">
+					Интернет магазин "Забота о природе" <di>т.8 499 999 99 99 
+					eadcv@mail.ru</di></h1></div>
+					</div>
+					</body>
        
         
         <section class="mainhead">
