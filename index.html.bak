@@ -74,129 +74,7 @@
                 </div>
             </div>
         </section>
-		<!-- Новинки  1-->
-    <section class="section" id="works">
-        <div class="container">
-            <div class="section__header">
-               <h2 class="section__suptitle">Интернет магазин "Забота о природе."</h2>
-                <h3 class="section__title">Новинки из вторсырья для активного отдыха.</h3>
-                <div class="section__text">
-                    <h4> Новинка для активного отдыха изготавливают из переработанных рыболовных сетей. На изготовление одного из изделий, уходит 30 квадратных метров старых сетей, 7-10 пластиковых бутылок и не мемение 10 крышек.</h4>
-					<h2 class="section__suptitle"> Хочешь купить, но не знаешь как заказать? Нет не чего проще, жми на понравившийся товар.</h2>
-                </div>
-            </div>
-        </div>
-        <div class="works">
-            <div class="works__col">
-                <div class="works__item">
-                    <img class="works__image" src="images/works/2.jpg" alt="">
-					<div class="works__info">
-                        <div class="works__title"><h2><dia>Новинка.</dia> Скейтборд.<h2></div>
-                        <div class="works__text"><h3>Делают рыболовных сетей океанского пластика крышек.</h3></div>
-                    </div>
-			    </div>
-            </div>
-                <div class="works__item">
-                    <img class="works__image" src="images/works/6.jpg" alt="">
-					<div class="works__info">
-                        <div class="works__title"> <h2><dia>Новинка.</dia> Рюкзак.<h2></div>
-                        <div class="works__text"><h3>Делают рыболовных сетей океанского пластика крышек.</h3></div>
-                    </div>
-				</div>
-			<div class="works__item">
-                    <img class="works__image" src="images/works/7.jpg" alt="">
-					<div class="works__info">
-                        <div class="works__title"> <h2><dia>Новинка.</dia> Красовки.<h2></div>
-                        <div class="works__text"><h3>Делают рыболовных сетей океанского пластика крышек.</h3></div>
-                    </div>
-                </div>
-            </div>
-		</div>
-	</section>	
-
-				<!-- Новинки  2-->
-    <section class="section" id="works">
-        <div class="container">
-            <div class="section__header">
-                <h2 class="section__suptitle">Интернет магазин "Забота о природе."</h2>
-                <h3 class="section__title">Новинки из вторсырья для МИЛЫХ ДАМ.</h3>
-                <div class="section__text">
-                    <h4> Изготовленые украшение для Милых дам,состоят из городского смога 40%, 30% смолы, 30% листьев. И это, Однако это хорошая новость!</h4>
-					<h2 class="section__suptitle"> Хочешь купить, но не знаешь как заказать? Нет не чего проще, жми на понравившийся товар.</h2>
-                </div>
-            </div>
-        </div>
-        <div class="works">
-            <div class="works__col">
-                <div class="works__item">
-                    <img class="works__image" src="images/works/4.jpg" alt="">
-					<div class="works__info">
-                        <div class="works__title"><h2><dia>Новинка.</dia> Кольцо.<h2></div>
-                        <div class="works__text"><h3>Делают из воздухаха веток, листьев,смолы.</h3></div>
-                    </div>
-			    </div>
-            </div>
-                <div class="works__item">
-                    <img class="works__image" src="images/works/5.jpg" alt="">
-					<div class="works__info">
-                        <div class="works__title"><h2><dia>Новинка.</dia> Подвеска на шею.<h2></div>
-                        <div class="works__text"><h3> Делают из воздухаха веток, листьев,смолы.</h3></div>
-                    </div>
-				</div>
-			<div class="works__item">
-                    <img class="works__image" src="images/works/8.jpg" alt="">
-					<div class="works__info">
-                        <div class="works__title"><h2><dia>Новинка.</dia> Подвеска на шею.<h2></div>
-                        <div class="works__text"><h3>Делают из пластика, смолы и металов.</h3></div>
-                    </div>
-                </div>
-            </div>
-		</div>
-	</section>	
-			
-			
-	<!-- Новинки  3-->
-    <section class="section" id="works">
-        <div class="container">
-            <div class="section__header">
-                <h2 class="section__suptitle">Интернет магазин "Забота о природе."</h2>
-                <h3 class="section__title">Рады представить, долгожданные новинки из вторсырья.</h3>
-                <div class="section__text">
-                    <h4>Изготовленые изделия, на 75% из переработанного полипропилена и на 15% — из вторичной древесины. Дерево создает крапчатую текстуру, которая придает каждому изделию уникальность.</h4>
-					<h2 class="section__suptitle"> Хочешь купить, но не знаешь как заказать? Нет не чего проще, жми на понравившийся товар.</h2>
-                </div>
-            </div>
-        </div>
-        <div class="works">
-            <div class="works__col">
-                <div class="works__item">
-                    <img class="works__image" src="images/works/9.jpg" alt="">
-					<div class="works__info">
-                        <div class="works__title"><h2><dia>Новинка.</dia> Стул.<h2></div>
-                        <div class="works__text"><h3>Делают из птастиковых крышек и опилок.</h3></div>
-                    </div>
-			    </div>
-            </div>
-                <div class="works__item">
-                    <img class="works__image" src="images/works/10.jpg" alt="">
-					<div class="works__info">
-                        <div class="works__title"><h2><dia>Новинка.</dia> Олень.<h2></div>
-                        <div class="works__text"><h3>Делают из пластика и опилок.</h3></div>
-                    </div>
-				</div>
-			<div class="works__item">
-                    <img class="works__image" src="images/works/11.jpg" alt="">
-					<div class="works__info">
-                        <div class="works__title"><h2><dia>Новинка.</dia>Сова.<h2></div>
-                        <div class="works__text"><h3>Делают из пластика и опилок.</h3></div>
-                    </div>
-                </div>
-            </div>
-		</div>
-	</section>	
-	
-	
-        <section class="slider">
+		<section class="slider">
             <div class="container">
                 <div class="slider_desk">
                     <div class="slider_block active">
@@ -250,7 +128,7 @@
         
         <section>
             <div class="container">
-			<h1><p>Природа – Прекрасный мир,который нас окружает.</p1></h2> 
+			<h1><p1>Природа – Прекрасный мир, который нас окружает.</p1></h2> 
 			<h2><p>Горы, Поля, Леса, Реки, Озера, Моря.</p></h2>
 			<h2><p>Прекрасный мир,который нас окружает.</p></h2> 
 			<h2><p>Природа дает людям кров, пищу одежду.</p></h2> 
@@ -258,6 +136,154 @@
 			<h2><p>Не беречь природу,</p></h2> 
 			<h2><p>значит не беречь себя, и своих близких.</p></h2></div>
         </section>	
+		
+		
+		<!-- Новинки  1-->
+    <section class="section" id="works">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__suptitle"> 
+				<p>Представляем вашему вниманию, новинки из вторсырья.</p> 
+				<p>В категории для активного отдыха.</p></h2>
+                <div class="section__text">
+                    <h4> <p>Из чего производят.</p>
+					<p>На изготовление одного изделия,</p> 
+					<p>уходит 30 квадратных метров старых сетей,</p>
+					<p>7-10 пластиковых бутылок из океана, и не мемение 10 крышек.</p></h4>
+					<h2 class="section__suptitle">
+					<p>Хочешь купить, но не знаешь как?</p> 
+					<p>Нет, не чего проще.</p>
+					<p>Жми на понравившийся товар.</p></h2>
+                </div>
+            </div>
+        </div>
+        <div class="works">
+            <div class="works__col">
+                <div class="works__item">
+                    <img class="works__image" src="images/works/2.jpg" alt="">
+					<div class="works__info">
+                        <div class="works__title"><h2><dia>Новинка.</dia> Скейтборд.<h2></div>
+                        <div class="works__text"><h3>Делают рыболовных сетей океанского пластика крышек.</h3></div>
+                    </div>
+			    </div>
+            </div>
+                <div class="works__item">
+                    <img class="works__image" src="images/works/6.jpg" alt="">
+					<div class="works__info">
+                        <div class="works__title"> <h2><dia>Новинка.</dia> Рюкзак.<h2></div>
+                        <div class="works__text"><h3>Делают рыболовных сетей океанского пластика крышек.</h3></div>
+                    </div>
+				</div>
+			<div class="works__item">
+                    <img class="works__image" src="images/works/7.jpg" alt="">
+					<div class="works__info">
+                        <div class="works__title"> <h2><dia>Новинка.</dia> Красовки.<h2></div>
+                        <div class="works__text"><h3>Делают рыболовных сетей океанского пластика крышек.</h3></div>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</section>	
+
+				<!-- Новинки  2-->
+    <section class="section" id="works">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__suptitle">
+				<p>Представляем вашему вниманию, новинки из вторсырья.</p> 
+				<p>В категории Украшение, для МИЛЫХ ДАМ.</p></h2>
+                <div class="section__text">
+                    <h4> <p>Из чего делают украшение.</p>
+					<p>Производят из городского смога 40%,</p>
+					<p>30% смолы, 30% листьев.</p> 
+					<p>Однако это хорошая новость!</p></h4>
+					<h2 class="section__suptitle"> 
+					<p>Хочешь купить, но не знаешь как?</p> 
+					<p>Нет, не чего проще.</p>
+					<p>Жми на понравившийся товар.</p></h2>
+                </div>
+            </div>
+        </div>
+        <div class="works">
+            <div class="works__col">
+                <div class="works__item">
+                    <img class="works__image" src="images/works/4.jpg" alt="">
+					<div class="works__info">
+                        <div class="works__title"><h2><dia>Новинка.</dia> Кольцо.<h2></div>
+                        <div class="works__text"><h3>Делают из воздухаха веток, листьев,смолы.</h3></div>
+                    </div>
+			    </div>
+            </div>
+                <div class="works__item">
+                    <img class="works__image" src="images/works/5.jpg" alt="">
+					<div class="works__info">
+                        <div class="works__title"><h2><dia>Новинка.</dia> Подвеска на шею.<h2></div>
+                        <div class="works__text"><h3> Делают из воздухаха веток, листьев,смолы.</h3></div>
+                    </div>
+				</div>
+			<div class="works__item">
+                    <img class="works__image" src="images/works/8.jpg" alt="">
+					<div class="works__info">
+                        <div class="works__title"><h2><dia>Новинка.</dia> Подвеска на шею.<h2></div>
+                        <div class="works__text"><h3>Делают из пластика, смолы и металов.</h3></div>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</section>	
+			
+			
+	<!-- Новинки  3-->
+    <section class="section" id="works">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__suptitle">
+				<p>Представляем вашему вниманию, новинки из вторсырья.</p> 
+				<p>В категории для, Дачи.</p></h2>
+                <div class="section__text">
+                    <h4><p>Из чего производят.</p>
+					    <p>75% из переработанного полипропилена. (Пластик.)</p>
+						<p>15% — из вторичной древесины. (Опилки).</p>
+						<p>Дерево создает крапчатую текстуру,</p>
+						<p>которая придает каждому изделию уникальность.<p>
+						<p>10% смола</p></h4>
+					<h2 class="section__suptitle"> 
+					<p>Хочешь купить, но не знаешь как?</p> 
+					<p>Нет, не чего проще.</p>
+					<p>Жми на понравившийся товар.</p></h2>
+                </div>
+            </div>
+        </div>
+        <div class="works">
+            <div class="works__col">
+                <div class="works__item">
+                    <img class="works__image" src="images/works/9.jpg" alt="">
+					<div class="works__info">
+                        <div class="works__title"><h2><dia>Новинка.</dia> Стул.<h2></div>
+                        <div class="works__text"><h3>Делают из птастиковых крышек и опилок.</h3></div>
+                    </div>
+			    </div>
+            </div>
+                <div class="works__item">
+                    <img class="works__image" src="images/works/10.jpg" alt="">
+					<div class="works__info">
+                        <div class="works__title"><h2><dia>Новинка.</dia> Олень.<h2></div>
+                        <div class="works__text"><h3>Делают из пластика и опилок.</h3></div>
+                    </div>
+				</div>
+			<div class="works__item">
+                    <img class="works__image" src="images/works/11.jpg" alt="">
+					<div class="works__info">
+                        <div class="works__title"><h2><dia>Новинка.</dia>Сова.<h2></div>
+                        <div class="works__text"><h3>Делают из пластика и опилок.</h3></div>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</section>	
+	
+	
+        
 		
 				<!-- три поля  --> 
                 <section id="advantages" class="advantages">
