@@ -129,6 +129,9 @@ dia {
 		height: 20px;
 		
 		animation: nev 1s infinite alternate;
+		position: absolute;
+		top: 5px;
+		left: 5px;
 		}
 		@keyframes nev {
 		0% {

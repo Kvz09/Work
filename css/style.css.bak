@@ -1057,7 +1057,7 @@ main {
 .slider_points {
     position: absolute;
     z-index: 1;
-    width: 417px; /*кружочки под слайдером*/
+    width: 600px; /*кружочки под слайдером*/
     height: 24px;
     display: flex;
     justify-content: center;
