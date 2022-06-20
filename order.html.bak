@@ -70,6 +70,7 @@
                 <a href="product.html">Товар</a>
                 <a href="order.html" class="current">Корзина</a>
                 <a href="contacts.html">Контакты</a>
+				<a href="Полезные статьи.html">Полезные статьи</a>
             </nav>
         </section>
     </header>

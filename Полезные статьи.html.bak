@@ -42,7 +42,7 @@
                 <a href="product.html">Товар</a>
                 <a href="order.html">Корзина</a>
                 <a href="contacts.html">Контакты</a>
-				
+				<a href="Полезные статьи.html">Полезные статьи</a>
 				
             </nav>
         </section>
@@ -54,6 +54,17 @@
                 <nav class="footermenu">
 				
 	<main>
+	
+						<!-- Осенний листопад-->
+						  <div id="leaf-fall">
+						<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
+						<hr><hr><hr><hr><hr><hr><hr><hr><hr>
+						<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
+						<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
+						</div>
+						<!-- /сенний листопад-->	
+						
+						
 				<!-- три поля   
                 <section id="advantages" class="advantages">
                     <h1 class="title">Интернет магазин "Забота о природе"</h1>
@@ -95,6 +106,15 @@
 								<diz>Блог. Как улучшить экологию.</diz></a> 
 							</div>
                         </div>
+
+<!-- Осенний листопад-->
+						  <div id="leaf-fall">
+						<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
+						<hr><hr><hr><hr><hr><hr><hr><hr><hr>
+						<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
+						<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
+						</div>
+						<!-- /сенний листопад-->	
 
                         <div class="blogs__item">
                             <img src="images/blogs/3.jpg" alt="Фото3">

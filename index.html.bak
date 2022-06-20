@@ -24,7 +24,7 @@
 					Интернет магазин "Забота о природе" <di>т.8 499 999 99 99 
 					eadcv@mail.ru</di></h1></div>
 					</div>
-					</body>
+					</body> <!--Всплывающие окно-->
         
         <section class="mainhead">
             <div class="container">
@@ -42,7 +42,7 @@
                 <a href="product.html">Товар</a>
                 <a href="order.html">Корзина</a>
                 <a href="contacts.html" class="current">Контакты</a>
-				<a href="order1.html">О компании</a>
+				<a href="Полезные статьи.html">Полезные статьи</a>
             </nav>
         </section>
     </header>
@@ -215,7 +215,7 @@
                         <img src="images/Банер/4.png" alt="pic 4">
                     </div>
                     
-                    <div class="slider_block" style="background:#00FFFF;color:white;
+                  <!--  <div class="slider_block" style="background:#00FFFF;color:white;
 					text-align: center;">
                        <p> 
 					   <p> 
@@ -232,7 +232,7 @@
 						<h3>	после вашего ухода. Ответственно </h3>
 						<h3> относитесь к использованным батарейкам..</h3>
                         
-                    </div>
+                    </div> -->
                 </div>
                 
                 <button type="button" class="to_left icon"></button>
@@ -249,11 +249,14 @@
         </section>
         
         <section>
-            <div class="container"> Природа – это прекрасный мир,
-			который окружает человека. Это горы, поля, леса,
-			реки, 	озера. Природа дает людям кров, пищу и одежду, 
-			это воздух, которым они дышат. Не беречь природу, 
-			значит не беречь себя и своих близких. </div>
+            <div class="container">
+			<h1><p>Природа – Прекрасный мир,который нас окружает.</p1></h2> 
+			<h2><p>Горы, Поля, Леса, Реки, Озера, Моря.</p></h2>
+			<h2><p>Прекрасный мир,который нас окружает.</p></h2> 
+			<h2><p>Природа дает людям кров, пищу одежду.</p></h2> 
+			<h2><p>Воздух, которым Мы дышам.</p></h2> 
+			<h2><p>Не беречь природу,</p></h2> 
+			<h2><p>значит не беречь себя, и своих близких.</p></h2></div>
         </section>	
 		
 				<!-- три поля  --> 
@@ -279,31 +282,8 @@
                     </div>
                 </section>
 							<!-- три поля -->
-		
-		
-		
-		<section class="question"> <!--Есть вопросы. Мы перезвоним!-->
-                    <h1 class="title">Есть вопросы? Мы перезвоним!</h1>
-                    <p class="question_text">вопросы</p>
-                    <form action="" method="get" id="question">
-                        <input type="text" id="name" name="user_name" 
-						form="question" placeholder="Ваше имя">
-                        <input class="phone" type="text" id="phone" name="phone_number" 
-						form="question" placeholder="Телефон">
-                        <button type="submit" form="question" value="info_sent">
-						ОТПРАВИТЬ       </button>
-                </section> <!--Есть вопросы. Мы перезвоним!-->
-		
-							<!-- Осенний листопад-->
-						  <div id="leaf-fall">
-						<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
-						<hr><hr><hr><hr><hr><hr><hr><hr><hr>
-						<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
-						<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
-						</div>
-						<!-- /сенний листопад-->	
 								
-							</main>
+		</main>
    
    <footer>
 

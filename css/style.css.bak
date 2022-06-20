@@ -124,7 +124,7 @@ h1 {
 
 dia {
 	
-		border: 5px solid #00FA9A; /* Параметры рамки  и цвет рамки*/
+		border: 5px solid #7B68EE; /* Параметры рамки  и цвет рамки*/
 		
 		height: 20px;
 		
@@ -191,7 +191,7 @@ padding: 20px;
 /* Фон шапкм сайта */
 background: #0024FF;
 /* Подключаем анимацию */
-animation: main-hed 10s linear;
+animation: main-hed 6s linear;
 }
 /* Название сайта */
 .main-title{
