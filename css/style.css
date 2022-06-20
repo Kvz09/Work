@@ -89,7 +89,7 @@ h1 {
   
   
   
-  /*/ анимация №2*/
+  /*/анимация №2*/
  diz {
 	
 		border: 3px solid #00FA9A; /* Параметры рамки  и цвет рамки*/
@@ -151,12 +151,6 @@ dia {
 		}
 		}
   /*/ анимация №2*/
-
-
-
-
-
-
 
  .flame {  /*пылающие пламя*/
  
@@ -1017,8 +1011,8 @@ main {
 .slider .container,
 .slider_desk,
 .slider_block {  /* слайдер ширина и высота*/
-    width: 1000px;
-    height: 530px;
+    width: 1200px; /*ширина*/
+    height: 600px; /*высота*/
 }
 .slider .container {
     padding: 16px 64px;
@@ -1044,17 +1038,17 @@ main {
     width: 32px;
     border-radius: 8px;
     text-align: center;
-    top: 190px; /*стрелочки на банере вверх и низ*/
+    top: 275px; /*стрелочки на банере вверх и низ*/
     z-index: 1;
     cursor: pointer;
     font-size: 32px;
     line-height: 32px;
 }
 .slider .to_left {
-    left: 16px;
+    left: 76px; /*стрелочка с права*/
 }
 .slider .to_right {
-    right: 16px;
+    right: 76px; /*стрелочка с лева*/
 }
 .slider button::before,
 .slider button::after {
@@ -1063,7 +1057,7 @@ main {
 .slider_points {
     position: absolute;
     z-index: 1;
-    width: 417px; /*кружочки под слайдером*/
+    width: 600px; /*кружочки под слайдером*/
     height: 24px;
     display: flex;
     justify-content: center;
