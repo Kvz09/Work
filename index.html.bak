@@ -53,7 +53,7 @@
     
         <section class="actionband">
             <div class="container">
-                <div class="discount">СКИДКА 30%!</div>
+                <div class="discount">Акция на бижутерию 40%!</div>
                 
                 <div class="retaimer" data-fordate="08-08-2022">
                     <div class="toptext">до окончания акции осталось</div>
@@ -94,7 +94,7 @@
                 <div class="works__item">
                     <img class="works__image" src="images/works/2.jpg" alt="">
 					<div class="works__info">
-                        <div class="works__title"><h2>Новинка. Скейтборд.<h2></div>
+                        <div class="works__title"><h2><dia>Новинка.</dia> Скейтборд.<h2></div>
                         <div class="works__text"><h3>Делают рыболовных сетей океанского пластика крышек.</h3></div>
                     </div>
 			    </div>
