@@ -58,16 +58,16 @@
 		<ul class="submenu">
 		<li><a href="catalog.html">Каталог</a>
 		<ul class="submenu">
-		<li><a href="">При1</a></li>
-		<li><a href="">Привет 2</a></li>
+		<li><a href="">Новинки</a></li>
+		<li><a href="">Скоро приедут</a></li>
 		</ul>
 		</li>
-		<li><a href=""> Товар</a>
+		<li><a href="product.html"> Товар</a>
 		<ul class="submenu">
+		<li><a href="">Одежда</a></li>
+		<li><a href="">Куртка</a></li>
 		<li><a href="">Meny 1-3-1</a></li>
-		<li><a href="">Meny 1-3-2</a></li>
-		<li><a href="">Meny 1-3-1</a></li>
-		<li><a href="">Meny 1-3-2</a></li>
+		<li><a href="">ит</a></li>
 		<li><a href="">Meny 1-3-1</a></li>
 		<li><a href="">Meny 1-3-2</a></li>
 		</ul>
