@@ -64,7 +64,7 @@
 		</li>
 		<li><a href="product.html"> Товар</a>
 		<ul class="submenu">
-		<li><a href="">Одежда</a></li>
+		<li><a href="product1">Одежда</a></li>
 		<li><a href="">Куртка</a></li>
 		<li><a href="">Meny 1-3-1</a></li>
 		<li><a href="">ит</a></li>
@@ -72,15 +72,15 @@
 		<li><a href="">Meny 1-3-2</a></li>
 		</ul>
 		</li>
-		<li><a href="">Корзина</a>
+		<li><a href="order.html"">Корзина</a>
 		<ul class="submenu">
 		</ul>
 		</li>
-		<li><a href="">Контакты</a>
+		<li><a href="contacts.html"">Контакты</a>
 		<ul class="submenu">
 		</ul>
 		</li>
-		<li><a href="">Полезные статьи</a>
+		<li><a href="Полезные статьи.html"">Полезные статьи</a>
 		<ul class="submenu">
 		</ul>
 		</li>
