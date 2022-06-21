@@ -113,130 +113,73 @@
         </section>
     </main>
     
-   <footer>
-	
-        <section> 
-            <div class="container">
+ <footer>
+
+    <body>
+	<ul class="meny">
+		<li class="html"><a href="http://address post">О Компании</a>
+			<ul>
+				<li><a href="http://address post">О нас</a></li>
+				<li><a href="http://address post">Реквизиты</a></li>
+				<li><a href="http://address post">Пресс-центр</a></li>
+				<li><a href="              ">Контакты</a></li>
+				<li><a href="http://address post">Правила продажи</a></li>
+				<li><a href="http://address post">Политика конфиденциальности</a></li>
+			</ul>
+		</li>
 			
-                <nav class="footermenu">
-				
-                    <ul>
-                        <li class="big">HEADER</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                    </ul>
-                    <ul>
-                        <li class="big">HEADER</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                    </ul>
-                     <ul>
-                        <li class="big">HEADER</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                    </ul>
-					 <ul>
-                        <li class="big">HEADER</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                        <li>point</li>
-                    </ul>
 
-					<div class="footer__col  footer__col--second">  <!--блоги -->
-						<div class="footer__title">Блоги</div>
+		<li class="php"><a href="http://address post"> Покупателям</a>
+			<ul>
+				<li><a href="                   ">Каталог</a></li>
+				<li><a href="                    ">Корзина</a></li>
+				<li><a href="http://address post">Промокоды</a></li>
+				<li><a href="http://address post">Отзывы о нас</a></li>
+				<li><a href="http://address post">Вопросы и ответы</a></li>
+				<li><a href="http://address post">Обратная связь</a></li>
+			</ul>
+		</li>
 
-						<div class="blogs__item">
-                            <img src="images/blogs/3.jpg" alt="Фото1">
-                            <div class="blogs__content">
-                                <a class="blogs__title" href="#">10 способов помочь природе. </a>
-                                <div class="blogs__date"> Обновлено Июнь 13, 2022</div>
-                            </div>
-                        </div>
-
-                        <div class="blogs__item">
-                            <img src="images/blogs/1.jpg" alt="Фото2">
-                            <div class="blogs__content">
-                                <a class="blogs__title" href="#">Как улучшить экологию.</a>
-                                <div class="blogs__date">Обновлено Июнь 13, 2022</div>
-                            </div>
-                        </div>
-
-                        <div class="blogs__item">
-                            <img src="images/blogs/2.jpg" alt="Фото3">
-                            <div class="blogs__content">
-                                <a class="blogs__title" href="#">10 примеров заботы о планете.</a>
-                                <div class="blogs__date"> Обновлено Июнь 13, 2022</div>
-                            </div>
-                        </div>
-						
-						<div class="blogs__item">
-                            <img src="images/blogs/4.jpg" alt="Фото3">
-                            <div class="blogs__content">
-                                <a class="blogs__title" href="#">4 примера утилизации мусора.</a>
-                                <div class="blogs__date"> Обновлено Июнь 13, 2022</div>
-                            </div>
-                        </div>
-                    </div> <!-- /.Блоги -->
-					
-				<div class="footer__col  footer__col--third">
-                    <div class="footer__title">Телеграм</div>  <!--Телеграм -->
-					
-					<div class="Telegram__item">
-                            <img src="images/Telegram/4.jpg" alt="Фото3">
-                            <div class="Telegram__content">
-                                <a class="Telegram__title" href="#">Наш вклад в природу.</a>
-                                <div class="Telegram__date"> </div>
-                            </div>
-					</div>		
-					<div class="Telegram__item">
-                            <img src="images/Telegram/3.jpg" alt="Фото3">
-                            <div class="Telegram__content">
-                                <a class="Telegram__title" href="#">Наш вклад в природу.</a>
-                                <div class="Telegram__date"> </div>
-                            </div>
-					</div>		
-					<div class="Telegram__item">
-                            <img src="images/Telegram/5.jpg" alt="Фото3">
-                            <div class="Telegram__content">
-                                <a class="Telegram__title" href="#">Наш вклад в природу.</a>
-                                <div class="Telegram__date"> </div>
-                            </div>
-					</div>		
-						<div class="Telegram__item">
-                            <img src="images/Telegram/0.jpg" alt="Фото3">
-                            <div class="Telegram__content">
-                                <a class="Telegram__title" href="#">Наш вклад в природу.</a>
-                                <div class="Telegram__date"> </div>
-                            </div>
-						</div>
-                </div>
-                </nav>
-            </div>
-        </section>
-						<!-- Карта -->
-    <section class="section  section--map">
-        <div class="container">
-            <div class="map">
-                <h2 class="map__title">
-                    <div><i class="fas fa-map-marker-alt"></i></div>
-                    <a href="https://yandex.ru/maps/213/moscow/?ll=37.622103%2C55.751600&mode=poi&poi%5Bpoint%5D=37.618869%2C55.751428&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1023322799&utm_source=main_stripe_big&z=16.6" target="_blank">Наш офис продаж</a>
-                </h2>
-            </div>
-        </div>
-		
-    </section>
-        <section>
+		<li class="js"><a href="http://address post">Мы в соцсетях</a>
+			<ul>
+				<li><a href="http://address post">Вконтакте</a></li>
+				<li><a href="http://address post">Одноклассники</a></li>
+				<li><a href="http://address post">YouTube</a></li>
+				<li><a href="http://address post">Телеграм</a></li>
+				<li><a href="http://address post">Мой Мир</a></li>
+				<li><a href="http://address post">TikTok</a></li>
+			
+			</ul>
+		</li>
+			
+		<li class="php"><a href="http://address post">Для поставщиков</a>
+			<ul>
+				<li><a href="http://address post">Закупки</a></li>
+				<li><a href="http://address post">Раскрытие информации</a></li>
+				<li><a href="http://address post">Инвесторам</a></li>
+				<li><a href="http://address post">Франшиза</a></li>
+				<li><a href="http://address post">Перевозчикам</a></li>
+				<li><a href="http://address post">Юридическим лицам</a></li>
+			
+			</ul>
+		</li>
+			
+		<li class="js"><a href="http://address post">Доставка</a>
+			<ul>
+				<li><a href="http://address post">Доставка курьером</a></li>
+				<li><a href="http://address post">Доставка транспортной компанией</a></li>
+				<li><a href="http://address post">Самовывоз</a></li>
+				<li><a href="http://address post">Обмен и возврат товара</a></li>
+				<li><a href="http://address post">Забрать в магазине</a></li>
+			</ul>
+		</li>
+	</ul>
+			</body>
+         <section>
             <div class="container">
                 <p class="copy">&copy; 2022 Все права защищены.</p>
             </div>
         </section>
     </footer>
 </body>
-</html>
+</html>  

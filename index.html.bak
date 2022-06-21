@@ -143,9 +143,10 @@
             <div class="section__header">
                 <h2 class="section__suptitle"> 
 				<p>Представляем вашему вниманию, новинки из переработоного вторсырья.</p> 
-				
-				<p>Категория, для активного отдыха.</p></h2>
-				<p>Жми на картинку, если понравилась новинка.</p>
+				<br>
+				<p>Категория, для активного отдыха.</p>
+				<br>
+				<p>Жми на картинку, если понравилась новинка.</p></h2>
             </div>
         </div>
         <div class="works">
@@ -154,7 +155,8 @@
                     <img class="works__image" src="images/works/2.jpg" alt="">
 					<div class="works__info">
                         <div class="works__title"><h2><dia>Новинка.</dia> Скейтборд.<h2></div>
-                        <div class="works__text"><h3>Делают рыболовных сетей океанского пластика крышек.</h3></div>
+                        <div class="works__text">
+						<h3>Делают рыболовных сетей океанского пластика крышек.</h3></div>
                     </div>
 			    </div>
             </div>
@@ -162,14 +164,16 @@
                     <img class="works__image" src="images/works/6.jpg" alt="">
 					<div class="works__info">
                         <div class="works__title"> <h2><dia>Новинка.</dia> Рюкзак.<h2></div>
-                        <div class="works__text"><h3>Делают рыболовных сетей океанского пластика крышек.</h3></div>
+                        <div class="works__text"><h3>
+						Делают рыболовных сетей океанского пластика крышек.</h3></div>
                     </div>
 				</div>
 			<div class="works__item">
                     <img class="works__image" src="images/works/7.jpg" alt="">
 					<div class="works__info">
                         <div class="works__title"> <h2><dia>Новинка.</dia> Красовки.<h2></div>
-                        <div class="works__text"><h3>Делают рыболовных сетей океанского пластика крышек.</h3></div>
+                        <div class="works__text"><h3>
+						Делают рыболовных сетей океанского пластика крышек.</h3></div>
                     </div>
                 </div>
             </div>
@@ -193,23 +197,29 @@
                 <div class="works__item">
                     <img class="works__image" src="images/works/4.jpg" alt="">
 					<div class="works__info">
-                        <div class="works__title"><h2><dia>Новинка.</dia> Кольцо.<h2></div>
-                        <div class="works__text"><h3>Делают из воздухаха веток, листьев,смолы.</h3></div>
+                        <div class="works__title"><h2>
+						<dia>Новинка.</dia> Кольцо.<h2></div>
+                        <div class="works__text"><h3>
+						Делают из воздухаха веток, листьев,смолы.</h3></div>
                     </div>
 			    </div>
             </div>
                 <div class="works__item">
                     <img class="works__image" src="images/works/5.jpg" alt="">
 					<div class="works__info">
-                        <div class="works__title"><h2><dia>Новинка.</dia> Подвеска на шею.<h2></div>
-                        <div class="works__text"><h3> Делают из воздухаха веток, листьев,смолы.</h3></div>
+                        <div class="works__title"><h2><dia>Новинка.
+						</dia> Подвеска на шею.<h2></div>
+                        <div class="works__text"><h3>
+						Делают из воздухаха веток, листьев,смолы.</h3></div>
                     </div>
 				</div>
 			<div class="works__item">
                     <img class="works__image" src="images/works/8.jpg" alt="">
 					<div class="works__info">
-                        <div class="works__title"><h2><dia>Новинка.</dia> Подвеска на шею.<h2></div>
-                        <div class="works__text"><h3>Делают из пластика, смолы и металов.</h3></div>
+                        <div class="works__title"><h2>
+						<dia>Новинка.</dia> Подвеска на шею.<h2></div>
+                        <div class="works__text">
+						<h3>Делают из пластика, смолы и металов.</h3></div>
                     </div>
                 </div>
             </div>
@@ -235,7 +245,8 @@
                     <img class="works__image" src="images/works/9.jpg" alt="">
 					<div class="works__info">
                         <div class="works__title"><h2><dia>Новинка.</dia> Стул.<h2></div>
-                        <div class="works__text"><h3>Делают из птастиковых крышек и опилок.</h3></div>
+                        <div class="works__text"><h3>
+						Делают из птастиковых крышек и опилок.			</h3></div>
                     </div>
 			    </div>
             </div>
@@ -348,11 +359,13 @@
 		</li>
 	</ul>
 			</body>
+			
          <section>
             <div class="container">
                 <p class="copy">&copy; 2022 Все права защищены.</p>
             </div>
         </section>
+		<div class="totop hidden">НАВЕРХ <span>&UpArrowBar;</span></div>
     </footer>
 </body>
 </html>  
