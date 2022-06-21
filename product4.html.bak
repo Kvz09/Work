@@ -34,14 +34,38 @@
             </div>
         </section>
         
-        <section>
-            <nav class="container">
-                <a href="index.html">Главная</a>
-                <a href="catalog.html">Каталог</a>
-                <a href="product.html" class="current">Товар</a>
-                <a href="order.html">Корзина</a>
-                <a href="contacts.html">Контакты</a>
-            </nav>
+         <section>   <!--вертикальное меню-->
+           <div class="nav">
+		<ul class="topmenu">
+		<li><a href="index.html">Главная</a>
+		<ul class="submenu">
+		<li><a href="catalog.html">Каталог</a>
+		<ul class="submenu">
+		<li><a href="">Новинки</a></li>
+		<li><a href="">Хиты продажи</a></li>
+		</ul>
+		</li>
+		<li><a href="product.html"> Товар</a>
+		<ul class="submenu">
+		</ul>
+		</li>
+		<li><a href="order.html"">Корзина</a>
+		<ul class="submenu">
+		</ul>
+		</li>
+		<li><a href="contacts.html"">Контакты</a>
+		<ul class="submenu">
+		</ul>
+		</li>
+		<li><a href="Полезные статьи.html"">Полезные статьи</a>
+		<ul class="submenu">
+		</ul>
+		</li>
+		</ul>
+		</li>
+         </li>
+		</ul>
+		</div>
         </section>
     </header>
     
@@ -101,7 +125,7 @@
                     </div>
                     
                     <div class="pricedesk">
-                        <p class="big">Это Подарочный пакет</p>
+                        <p class="big">Подарочный пакет</p>
                         <p class="price">60 &#8381;</p>
                         <button type="button" class="buy">Купить</button>
                     </div>

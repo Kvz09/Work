@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+	<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title></title>
+		
+		<link rel="stylesheet" href="css/style.css">
+		
+		<script src="js/jquery-3.6.0.min.js"></script>
+		
+		<script src="js/scripts.js"></script>
+		
+		<script src="js/main.js"></script>
+	</head>
+
+    <header>
+
+
+<div class="nav">
+<ul class="topmenu">
+<li><a href=""> Одежда 1Meny1</a>
+<ul class="submenu">
+<li><a href="">Толстовка 1-2</a>
+<ul class="submenu">
+<li><a href="">Толстовки для Взрослых</a></li> <!--//*1-2-1*//-->
+<li><a href="">Толстовки  Детские</a></li>   <!--//*1-2-2*//-->
+</ul>
+</li>
+<li><a href="">Джемпер 1-3</a>
+<ul class="submenu">
+<li><a href="">Детский 1-3-1</a></li>
+<li><a href="">муржской 1-3-2</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+
+<!--
+<li><a href="">77777Meny 2</a>
+<ul class="submenu">
+<li><a href="">7777Meny 2-1</a>
+<ul class="submenu">
+<li><a href="">6666Meny 2-1-1</a></li>
+<li><a href="">5555Meny 2-1-2</a></li>
+</ul>
+</li>
+<li><a href="">M777eny 2-2</a>
+<ul class="submenu">
+<li><a href="">Men77y 2-2-1</a></li>
+<li><a href="">Me777ny 2-2-2</a></li>
+</ul>
+</li>
+</ul>
+</li> -->
+
+
+</ul>
+</div>
+
+</header>
+    
+    <main>
+	
+	  </main>
+    
+   <footer>
+   </footer>
+</body>
+</html>

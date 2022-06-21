@@ -35,23 +35,8 @@
             </div>
         </section>
         
-       <!--  <section>
 		
-		
-          <!--  <nav class="container">
-                <a href="index.html">Главная</a>
-                <a href="catalog.html">Каталог</a>
-                <a href="product.html">Товар</a>
-                <a href="order.html">Корзина</a>
-                <a href="contacts.html" class="current">Контакты</a>
-				<a href="Полезные статьи.html">Полезные статьи</a>
-            </nav>
-        </section>-->
-		
-		
-		
-		
-		  <section>
+		  <section>   <!--вертикальное меню-->
            <div class="nav">
 		<ul class="topmenu">
 		<li><a href="index.html">Главная</a>
@@ -59,17 +44,17 @@
 		<li><a href="catalog.html">Каталог</a>
 		<ul class="submenu">
 		<li><a href="">Новинки</a></li>
-		<li><a href="">Скоро приедут</a></li>
+		<li><a href="">Хиты продажи</a></li>
 		</ul>
 		</li>
 		<li><a href="product.html"> Товар</a>
 		<ul class="submenu">
 		<li><a href="product1">Одежда</a></li>
 		<li><a href="product6">Куртка</a></li>
-		<li><a href="product5">Meny 1-3-1</a></li>
+		<li><a href="product5">Rjn</a></li>
 		<li><a href="product4">ит</a></li>
-		<li><a href="product3">Meny 1-3-1</a></li>
-		<li><a href="product2">Meny 1-3-2</a></li>
+		<li><a href="product3">компанией</a></li>
+		<li><a href="product2">аааа</a></li>
 		</ul>
 		</li>
 		<li><a href="order.html"">Корзина</a>
@@ -90,11 +75,6 @@
 		</ul>
 		</div>
         </section>
-    </header>
-		
-		
-		
-		
     </header>
     
     <main>

@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+	<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title></title>
+		
+		<link rel="stylesheet" href="css/style.css">
+		
+		<script src="js/jquery-3.6.0.min.js"></script>
+		
+		<script src="js/scripts.js"></script>
+		
+		<script src="js/main.js"></script>
+	</head>
+
+    <header>
+
+ 
+
+  <section>   <!--вертикальное меню-->
+           <div class="nav">
+		<ul class="topmenu">
+		<li><a href="index.html">Каталог товаров</a>
+		<ul class="submenu">
+		<li><a href="catalog.html">Новинки</a>
+		<ul class="submenu">
+		</ul>       <!--       -->
+		</li>
+		<li><a href="       "> Акции</a>
+		<ul class="submenu">
+		</ul>
+		</li>
+		<li><a href="       "> Хиты продаж</a>
+		<ul class="submenu">
+		</ul>
+		</li>
+		
+		
+		<li><a href="product.html">Ассортимент</a>
+		<ul class="submenu">
+		<li><a href="product.html">Одежда</a>
+		<ul class="submenu">
+		<li><a href="product1.html">Толстовка</a></li>
+		<li><a href="product6.html">Куртка</a></li>
+		<li><a href="product5.html">Носки</a></li>
+		<li><a href="product4.html">Рубашки</a></li>
+		<li><a href="product3.html">Майки</a></li>
+		<li><a href="product2.html">Штаны</a></li>
+		</ul>
+		</li>
+		
+		<li><a href="product.html">Обувь.</a>
+		<ul class="submenu">
+		<li><a href="      ">Красовки</a></li>
+		<li><a href="         ">Кеды</a></li>
+		<li><a href="         ">Макасины</a></li>
+		<li><a href="          ">Тапочки</a></li>
+		<li><a href="           ">Слансы</a></li>
+		<li><a href="         ">Башмоки</a></li>
+		</ul>
+		</li>
+		<li><a href="product5">Сумки</a></li>
+		<li><a href="product4">Швабры</a></li>
+		<li><a href="product3">Шампуни</a></li>
+		<li><a href="product2">Бытовая химия</a></li>
+		</ul>
+		</li>
+		</li>
+		<li><a href="order.html"">Все для сада</a>
+		<ul class="submenu"></ul>
+		</li>
+		<li><a href="contacts.html"">Ножи</a>
+		<ul class="submenu"></ul>
+		</li>
+		<li><a href="Полезные статьи.html"">Горжки</a>
+		<ul class="submenu"></ul>
+		</li>
+		</ul>
+		</li>
+         </li>
+		</li>
+		</div>
+        </section>
+
+
+
+
+
+
+
+</header>
+    
+    <main>
+	
+	  </main>
+    
+   <footer>
+   </footer>
+</body>
+</html>
