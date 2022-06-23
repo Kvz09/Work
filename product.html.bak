@@ -71,79 +71,66 @@
     
     <main>
         <section class="catalog">
-            <div class="container">
+            
                 <aside class="catmenu">
                     <div class="opener">КАТАЛОГ <div class="nav">
                     <nav class="accordeon">
                         <section>   <!--вертикальное меню-->
-           <div class="nav">
-		<ul class="topmenu">
-		<li><a href="index.html">Каталог.</a>
-		<ul class="submenu">
-		<li><a href="catalog.html">Новинки</a>
-		<ul class="submenu">
-		</ul>       <!--       -->
-		</li>
-	<!--	<li><a href="       "> Акции</a>
-		<ul class="submenu">
-		</ul>
-		</li>-->
-		<li><a href="       "> Хиты продаж</a>
-		<ul class="submenu">
-		</ul>
-		</li>
-		<li><a href="product.html">Одежда</a>
-		<ul class="submenu">
-		<li><a href="product.html">Одежда</a>
-		<ul class="submenu">
-		<li><a href="product1.html">Толстовка</a></li>
-		<li><a href="product6.html">Куртка</a></li>
-		<li><a href="product5.html">Носки</a></li>
-		<li><a href="product4.html">Рубашки</a></li>
-		<li><a href="product3.html">Майки</a></li>
-		<li><a href="product2.html">Штаны</a></li>
-		</ul>
-		</li>
-		<li><a href="product.html">Обувь.</a>
-		<ul class="submenu">
-		<li><a href="      ">Красовки</a></li>
-		<li><a href="         ">Кеды</a></li>
-		<li><a href="         ">Макасины</a></li>
-		<li><a href="          ">Тапочки</a></li>
-		<li><a href="           ">Слансы</a></li>
-		<li><a href="         ">Башмоки</a></li>
-		</ul>
-		</li>
-		<li><a href="product5">Сумки</a></li>
-		<li><a href="product4">Швабры</a></li>
-		<li><a href="product3">Шампуни</a></li>
-		<li><a href="product2">Бытовая химия</a></li>
-		</ul>
-		</li>
-		</li>
-		<li><a href="product.html">Обувь.</a>
-		<ul class="submenu">
-		<li><a href="      ">Красовки</a></li>
-		<li><a href="         ">Кеды</a></li>
-		<li><a href="         ">Макасины</a></li>
-		<li><a href="          ">Тапочки</a></li>
-		<li><a href="           ">Слансы</a></li>
-		<li><a href="         ">Башмоки</a></li>
-		</ul>
-		</li>
-		</li>
-		<li><a href="contacts.html"">Ножи</a>
-		<ul class="submenu"></ul>
-		</li>
-		<li><a href="Полезные статьи.html"">Горжки</a>
-		<ul class="submenu"></ul>
-		</li>
-		</ul>
-		</li>
-         </li>
-		</li>
-		</div>
-        </section>
+					   <div class="nav">
+					<ul class="topmenu">
+					
+					
+					<li><a href="product.html" class="current">Товар</a>
+					
+					<ul class="submenu">
+					<li><a href="catalog.html">Новинки</a>
+					<ul class="submenu">
+					</ul>      
+					</li>
+				
+					<li><a href="       "> Хиты продаж</a>
+					<ul class="submenu">
+					</ul>
+					</li>
+					<li><a href="product.html">Одежда</a>
+					<ul class="submenu">
+					<li><a href="product.html">Одежда</a>
+					<ul class="submenu">
+					<li><a href="product.html">Толстовка</a></li>
+					<li><a href="product.html">Куртка</a></li>
+					<li><a href="product.html">Носки</a></li>
+					<li><a href="product.html">Рубашки</a></li>
+					<li><a href="product.html">Майки</a></li>
+					<li><a href="product.html">Штаны</a></li>
+					</ul>
+					</li>
+					<li><a href="product.html">Обувь.</a>
+					<ul class="submenu">
+					<li><a href="      ">Красовки</a></li>
+					<li><a href="         ">Кеды</a></li>
+					<li><a href="         ">Макасины</a></li>
+					<li><a href="          ">Тапочки</a></li>
+					<li><a href="           ">Слансы</a></li>
+					<li><a href="         ">Башмоки</a></li>
+					</ul>
+					</li>
+					<li><a href="product">Сумки</a></li>
+					<li><a href="product">Швабры</a></li>
+					<li><a href="product">Шампуни</a></li>
+					<li><a href="product">Бытовая химия</a></li>
+					</ul>
+					</li>
+					</li>
+					<li><a href="            ">Все для сада</a>
+					<ul class="submenu"></ul>
+					</li>
+			
+					</ul>
+					</li>
+					 </li>
+					</li>
+					</div>
+					</section>
 
                     </nav>
                 </aside>

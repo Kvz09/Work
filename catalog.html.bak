@@ -44,8 +44,8 @@
 		<ul class="submenu">
 		<li><a href="catalog.html">Каталог</a>
 		<ul class="submenu">
-		<li><a href="">Новинки</a></li>
-		<li><a href="">Хиты продажи</a></li>
+		<li><a href="            ">Новинки</a></li>
+		<li><a href="             ">Хиты продажи</a></li>
 		</ul>
 		</li>
 		<li><a href="product.html"> Товар</a>
@@ -113,9 +113,9 @@
 		<li><a href="product7.html">Красовки</a></li>
 		<li><a href="product7.html">Кеды</a></li>
 		<li><a href="product7.html">Макасины</a></li>
-		<li><a href=" product7.html">Тапочки</a></li>
-		<li><a href=" product7.html">Слансы</a></li>
-		<li><a href=" product7.html">Башмоки</a></li>
+		<li><a href="product7.html">Тапочки</a></li>
+		<li><a href="product7.html">Слансы</a></li>
+		<li><a href="product7.html">Башмоки</a></li>
 		</ul>
 		</li>
 		<li><a href="product5">Сумки</a></li>
@@ -128,10 +128,10 @@
 		<li><a href="order.html">Все для сада</a>
 		<ul class="submenu"></ul>
 		</li>
-		<li><a href="contacts.html"">Ножи</a>
+		<li><a href="contacts.html">Ножи</a>
 		<ul class="submenu"></ul>
 		</li>
-		<li><a href="Полезные статьи.html"">Горжки</a>
+		<li><a href="Полезные статьи.html">Горжки</a>
 		<ul class="submenu"></ul>
 		</li>
 		</ul>
@@ -144,7 +144,7 @@
                     </nav>
                 </aside>
 				
-				<article>
+				
                     <h1>Каталог товаров</h1>
                     
                      <div class="item-desk">
@@ -249,7 +249,7 @@
                             <button type="button">🛒</button>
                         </div>
                     </div>
-                </article>
+                </aside>
             </div>
         </section>
     </main>
